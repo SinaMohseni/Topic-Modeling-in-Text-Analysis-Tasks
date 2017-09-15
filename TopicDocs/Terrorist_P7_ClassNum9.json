@@ -1,1173 +1,1872 @@
 [
  {
   "docName": "TerroristActivity 1", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    4, 
+    0.68286838133003669
+   ], 
+   [
+    5, 
+    0.10759977092615348
+   ], 
+   [
+    7, 
+    0.20528292844099141
+   ]
+  ], 
   "events": [
    "nationsbank", 
    "boatmen", 
-   "combination", 
-   "richard", 
+   "share", 
+   "stock", 
    "bank"
   ]
  }, 
  {
   "docName": "TerroristActivity 2", 
-  "classNum": 7, 
+  "classNum": [
+   [
+    8, 
+    0.99053956079445871
+   ]
+  ], 
   "events": [
    "district", 
    "school", 
+   "states", 
    "suburbia", 
-   "religious", 
-   "handicapped"
+   "children"
   ]
  }, 
  {
   "docName": "TerroristActivity 3", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.8522005304899043
+   ], 
+   [
+    8, 
+    0.14322226983667971
+   ]
+  ], 
   "events": [
-   ".'')", 
-   "hiroko", 
    "networks", 
-   "tots", 
-   "cbs"
+   "better", 
+   "big", 
+   ".'')", 
+   ".''"
   ]
  }, 
  {
   "docName": "TerroristActivity 4", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    9, 
+    0.99835323901899309
+   ]
+  ], 
   "events": [
    "codi", 
-   "derryberry", 
+   "take", 
    "convention", 
    "party", 
-   "stagg"
+   "derryberry"
   ]
  }, 
  {
   "docName": "TerroristActivity 5", 
-  "classNum": 8, 
+  "classNum": [
+   [
+    2, 
+    0.9925275515308648
+   ]
+  ], 
   "events": [
    "spain", 
    "television", 
    "digital", 
-   "latin", 
-   "directv"
+   "market", 
+   "company"
   ]
  }, 
  {
   "docName": "TerroristActivity 6", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    6, 
+    0.99618307870168554
+   ]
+  ], 
   "events": [
+   "computer", 
    "tam", 
+   "mail", 
    "noel", 
-   "cafe", 
-   "cybercafe", 
-   "mail"
+   "cafe"
   ]
  }, 
  {
   "docName": "TerroristActivity 7", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    7, 
+    0.99394478191268665
+   ]
+  ], 
   "events": [
    "mice", 
    "emails", 
-   "experimental", 
-   "purposes", 
-   "humans"
+   "city", 
+   "humans", 
+   "experimental"
   ]
  }, 
  {
   "docName": "TerroristActivity 8", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    6, 
+    0.99868849042110042
+   ]
+  ], 
   "events": [
    "racket", 
    "lutes", 
    "tennis", 
    "inches", 
-   "length"
+   "make"
   ]
  }, 
  {
   "docName": "TerroristActivity 9", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    4, 
+    0.99198790717069862
+   ]
+  ], 
   "events": [
    "lire", 
-   "dividend", 
-   "television", 
-   "consumer", 
-   "fell"
+   "company", 
+   "fell", 
+   "trading", 
+   "market"
   ]
  }, 
  {
   "docName": "TerroristActivity 10", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    8, 
+    0.99850280460028751
+   ]
+  ], 
   "events": [
+   "managed", 
    "fleming", 
    "jardine", 
-   "imro", 
-   "managed", 
-   "weaver"
+   "funds", 
+   "investment"
   ]
  }, 
  {
   "docName": "TerroristActivity 11", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    7, 
+    0.99534407880439835
+   ]
+  ], 
   "events": [
+   "peak", 
    "highpointers", 
    "howard", 
-   "peak", 
-   "verda", 
-   "scottie"
+   "university", 
+   "verda"
   ]
  }, 
  {
   "docName": "TerroristActivity 12", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    5, 
+    0.99519377853710478
+   ]
+  ], 
   "events": [
-   "singapore", 
-   "sesdaq", 
    "share", 
-   "takeover", 
-   "cents"
+   "stock", 
+   "million", 
+   "singapore", 
+   "company"
   ]
  }, 
  {
   "docName": "TerroristActivity 13", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    4, 
+    0.99728872757653664
+   ]
+  ], 
   "events": [
-   "coalition", 
    "party", 
-   "bevis", 
+   "coalition", 
    "minister", 
-   "thai"
+   "prime", 
+   "bevis"
   ]
  }, 
  {
   "docName": "TerroristActivity 14", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    4, 
+    0.18845524646607364
+   ], 
+   [
+    5, 
+    0.41282519550701846
+   ], 
+   [
+    7, 
+    0.39211530503987851
+   ]
+  ], 
   "events": [
-   "argentina", 
-   "america", 
-   "dow", 
+   "market", 
    "stock", 
-   "plantation"
+   "share", 
+   "america", 
+   "index"
   ]
  }, 
  {
   "docName": "TerroristActivity 15", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    4, 
+    0.3626846844862458
+   ], 
+   [
+    5, 
+    0.63281760817011057
+   ]
+  ], 
   "events": [
    "inventories", 
+   "may", 
    "quarter", 
-   "boise", 
-   "commerce", 
-   "pace"
+   "month", 
+   "business"
   ]
  }, 
  {
   "docName": "TerroristActivity 16", 
-  "classNum": 7, 
+  "classNum": [
+   [
+    8, 
+    0.98711338803420701
+   ]
+  ], 
   "events": [
    "allena", 
    "prisoners", 
-   "gatlin", 
    "gaye", 
-   "grandfather"
+   "vastopolis", 
+   "federal"
   ]
  }, 
  {
   "docName": "TerroristActivity 17", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    7, 
+    0.99282772946953202
+   ]
+  ], 
   "events": [
-   "honda", 
    "dealer", 
-   "kickback", 
-   "westside", 
+   "honda", 
+   "million", 
+   "car", 
    "scheme"
   ]
  }, 
  {
   "docName": "TerroristActivity 18", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    3, 
+    0.99648455836784755
+   ]
+  ], 
   "events": [
+   "market", 
    "bonds", 
+   "price", 
    "traders", 
-   "treasury", 
-   "muni", 
-   "municipal"
+   "buy"
   ]
  }, 
  {
   "docName": "TerroristActivity 19", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    5, 
+    0.98781681926810971
+   ]
+  ], 
   "events": [
-   "repurchase", 
+   "billion", 
+   "programming", 
    "drugs", 
-   "quarterly", 
-   "dividend", 
-   "disclosed"
+   "company", 
+   "share"
   ]
  }, 
  {
   "docName": "TerroristActivity 20", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    5, 
+    0.4236556355278836
+   ], 
+   [
+    7, 
+    0.57216036900820855
+   ]
+  ], 
   "events": [
-   "toronto", 
-   "tse", 
-   "klingensmith", 
-   "gold", 
-   "mixed"
+   "stock", 
+   "price", 
+   "million", 
+   "end", 
+   "investors"
   ]
  }, 
  {
   "docName": "TerroristActivity 21", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    4, 
+    0.27466315025010107
+   ], 
+   [
+    6, 
+    0.39396213803765967
+   ], 
+   [
+    9, 
+    0.29432305420710059
+   ]
+  ], 
   "events": [
    "wild", 
    "card", 
-   "berth", 
-   "playoff", 
-   "stand"
+   "vastpress", 
+   "fourth", 
+   "may"
   ]
  }, 
  {
   "docName": "TerroristActivity 22", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    2, 
+    0.12242040310161884
+   ], 
+   [
+    8, 
+    0.87506087740911065
+   ]
+  ], 
   "events": [
-   "emerging", 
-   "funds", 
-   "beach", 
    "market", 
-   "upside"
+   "funds", 
+   "emerging", 
+   "year", 
+   "investors"
   ]
  }, 
  {
   "docName": "TerroristActivity 23", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    2, 
+    0.99785186730769515
+   ]
+  ], 
   "events": [
    "airbus", 
-   "boeing", 
-   "aerospace", 
-   "jetliner", 
-   "restructuring"
+   "company", 
+   "members", 
+   "restructuring", 
+   "boeing"
   ]
  }, 
  {
   "docName": "TerroristActivity 24", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    2, 
+    0.19743907074398834
+   ], 
+   [
+    6, 
+    0.80119795349978951
+   ]
+  ], 
   "events": [
    "sumitomo", 
    "wyman", 
    "copper", 
-   "lme", 
-   "manipulation"
+   "market", 
+   "lme"
   ]
  }, 
  {
   "docName": "TerroristActivity 25", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    9, 
+    0.99271081594973842
+   ]
+  ], 
   "events": [
    "airlines", 
    "airport", 
    "food", 
-   "fda", 
-   "contamination"
+   "waters", 
+   "letter"
   ]
  }, 
  {
   "docName": "TerroristActivity 26", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.99763457840294689
+   ]
+  ], 
   "events": [
-   "booth", 
    "derryberry", 
+   "booth", 
    "tax", 
-   "gop", 
-   "presidential"
+   "year", 
+   "politics"
   ]
  }, 
  {
   "docName": "TerroristActivity 27", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.99784133953701093
+   ]
+  ], 
   "events": [
    "simmon", 
-   "sutphin", 
+   "managed", 
    "packer", 
-   "stultz", 
-   "lire"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 28", 
-  "classNum": 1, 
-  "events": [
-   "funds", 
-   "illiquid", 
-   "securities", 
-   "assets", 
-   "grenfell"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 29", 
-  "classNum": 7, 
-  "events": [
-   "eds", 
-   "debt", 
-   "services", 
-   "computer", 
-   "telecommunications"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 30", 
-  "classNum": 9, 
-  "events": [
-   "ncr", 
-   "terminating", 
-   "postal", 
-   "registered", 
-   "posts"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 31", 
-  "classNum": 5, 
-  "events": [
-   "circon", 
-   "surgical", 
-   "takeover", 
-   "retention", 
-   "employee"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 32", 
-  "classNum": 6, 
-  "events": [
-   "intel", 
-   "microprocessors", 
-   "quarter", 
-   "technology", 
-   "per"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 33", 
-  "classNum": 8, 
-  "events": [
-   "guilders", 
-   "unilever", 
-   "nutricia", 
-   "aex", 
-   "royal"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 34", 
-  "classNum": 1, 
-  "events": [
-   "session", 
-   "stock", 
-   "quarter", 
-   "nasdaq", 
-   "sank"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 35", 
-  "classNum": 7, 
-  "events": [
-   "lambert", 
-   "warner", 
-   "myers", 
-   "bristol", 
-   "drugs"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 36", 
-  "classNum": 5, 
-  "events": [
-   "pill", 
-   "contraceptives", 
-   "dosage", 
-   "japan", 
-   "ministry"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 37", 
-  "classNum": 6, 
-  "events": [
-   "rupiah", 
-   "telekomunikasi", 
-   "jakarta", 
-   "lira", 
-   "indosat"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 38", 
-  "classNum": 1, 
-  "events": [
-   "player", 
-   "team", 
-   "cap", 
-   "nba", 
-   "salary"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 39", 
-  "classNum": 6, 
-  "events": [
-   "rexene", 
-   "chemical", 
-   "huntsman", 
-   "crouch", 
-   "ethylene"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 40", 
-  "classNum": 3, 
-  "events": [
-   "brokers", 
-   "nasd", 
-   "imposters", 
-   "testing", 
-   "regulators"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 41", 
-  "classNum": 7, 
-  "events": [
-   "lobbyists", 
-   "tobacco", 
-   "health", 
-   "comprise", 
-   "chapel"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 42", 
-  "classNum": 9, 
-  "events": [
-   "lloyd", 
-   "insurer", 
-   "disclosure", 
-   "members", 
-   "berry"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 43", 
-  "classNum": 6, 
-  "events": [
-   "apache", 
-   "helicopter", 
-   "mcdonnell", 
-   "douglas", 
-   "rebuild"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 44", 
-  "classNum": 2, 
-  "events": [
-   "warner", 
-   "line", 
-   "turner", 
-   "movie", 
-   "mgm"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 45", 
-  "classNum": 1, 
-  "events": [
-   "amalgam", 
-   "mercury", 
-   "dental", 
-   "health", 
-   "recommends"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 46", 
-  "classNum": 4, 
-  "events": [
-   "assessor", 
-   "county", 
-   "tax", 
-   "suing", 
+   "share", 
    "boards"
   ]
  }, 
  {
-  "docName": "TerroristActivity 47", 
-  "classNum": 2, 
+  "docName": "TerroristActivity 28", 
+  "classNum": [
+   [
+    6, 
+    0.99811177562819409
+   ]
+  ], 
   "events": [
-   "caesar", 
+   "funds", 
+   "securities", 
+   "managed", 
+   "illiquid", 
+   "assets"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 29", 
+  "classNum": [
+   [
+    6, 
+    0.99648475928870317
+   ]
+  ], 
+  "events": [
+   "eds", 
+   "services", 
+   "company", 
+   "debt", 
+   "computer"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 30", 
+  "classNum": [
+   [
+    5, 
+    0.99043734882046852
+   ]
+  ], 
+  "events": [
+   "services", 
+   "terminating", 
+   "contract", 
+   "ncr", 
+   "offices"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 31", 
+  "classNum": [
+   [
+    5, 
+    0.92529433204722733
+   ], 
+   [
+    9, 
+    0.067938994589229668
+   ]
+  ], 
+  "events": [
+   "circon", 
+   "planned", 
+   "surgical", 
+   "employee", 
+   "takeover"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 32", 
+  "classNum": [
+   [
+    5, 
+    0.99451111257431046
+   ]
+  ], 
+  "events": [
+   "intel", 
+   "share", 
+   "earnings", 
+   "market", 
+   "quarter"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 33", 
+  "classNum": [
+   [
+    1, 
+    0.27343079206115228
+   ], 
+   [
+    4, 
+    0.45610547923048128
+   ], 
+   [
+    5, 
+    0.26552372966541693
+   ]
+  ], 
+  "events": [
+   "guilders", 
+   "million", 
+   "billion", 
+   "first", 
+   "half"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 34", 
+  "classNum": [
+   [
+    5, 
+    0.85178611894118084
+   ], 
+   [
+    8, 
+    0.14669404321758869
+   ]
+  ], 
+  "events": [
+   "stock", 
+   "market", 
+   "session", 
+   "earnings", 
+   "quarter"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 35", 
+  "classNum": [
+   [
+    5, 
+    0.99621597573102749
+   ]
+  ], 
+  "events": [
+   "drugs", 
+   "warner", 
+   "quarter", 
+   "lambert", 
+   "company"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 36", 
+  "classNum": [
+   [
+    9, 
+    0.99806260673835678
+   ]
+  ], 
+  "events": [
+   "pill", 
+   "japan", 
+   "women", 
+   "ministry", 
+   "contraceptives"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 37", 
+  "classNum": [
+   [
+    4, 
+    0.98147387687677989
+   ]
+  ], 
+  "events": [
+   "share", 
+   "rupiah", 
+   "trading", 
+   "thursday", 
+   "vastpress"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 38", 
+  "classNum": [
+   [
+    6, 
+    0.99860612928840398
+   ]
+  ], 
+  "events": [
+   "player", 
+   "team", 
+   "year", 
+   "cap", 
+   "million"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 39", 
+  "classNum": [
+   [
+    1, 
+    0.54216990658149611
+   ], 
+   [
+    5, 
+    0.45407058661173388
+   ]
+  ], 
+  "events": [
+   "chemical", 
+   "rexene", 
+   "million", 
+   "offered", 
+   "price"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 40", 
+  "classNum": [
+   [
+    5, 
+    0.99614998423776246
+   ]
+  ], 
+  "events": [
+   "brokers", 
+   "testing", 
+   "securities", 
+   "firm", 
+   "nasd"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 41", 
+  "classNum": [
+   [
+    3, 
+    0.99119568608114605
+   ]
+  ], 
+  "events": [
+   "lobbyists", 
+   "health", 
+   "states", 
+   "tobacco", 
+   "also"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 42", 
+  "classNum": [
+   [
+    2, 
+    0.33673049442087216
+   ], 
+   [
+    9, 
+    0.66123255981281137
+   ]
+  ], 
+  "events": [
+   "lloyd", 
+   "insurer", 
+   "members", 
+   "american", 
+   "financial"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 43", 
+  "classNum": [
+   [
+    6, 
+    0.98781728929773549
+   ]
+  ], 
+  "events": [
+   "sign", 
+   "helicopter", 
+   "mcdonnell", 
+   "douglas", 
+   "apache"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 44", 
+  "classNum": [
+   [
+    6, 
+    0.99796021367719168
+   ]
+  ], 
+  "events": [
+   "new", 
+   "line", 
+   "warner", 
+   "company", 
+   "turner"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 45", 
+  "classNum": [
+   [
+    8, 
+    0.99337539246715378
+   ]
+  ], 
+  "events": [
+   "amalgam", 
+   "health", 
+   "mercury", 
+   "dental", 
+   "use"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 46", 
+  "classNum": [
+   [
+    3, 
+    0.98928691920181677
+   ]
+  ], 
+  "events": [
+   "vastopolis", 
+   "tax", 
+   "assessor", 
+   "boards", 
+   "county"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 47", 
+  "classNum": [
+   [
+    4, 
+    0.99741465487651482
+   ]
+  ], 
+  "events": [
+   "show", 
    "bruno", 
-   "rape", 
-   "sol", 
-   "brumbaugh"
+   "may", 
+   "reporters", 
+   "managed"
   ]
  }, 
  {
   "docName": "TerroristActivity 48", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.15218406471512311
+   ], 
+   [
+    7, 
+    0.45265835465275489
+   ], 
+   [
+    8, 
+    0.39028823894349596
+   ]
+  ], 
   "events": [
    "morgan", 
-   "virginia", 
-   "west", 
+   "million", 
+   "investment", 
    "case", 
-   "risky"
+   "west"
   ]
  }, 
  {
   "docName": "TerroristActivity 49", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    9, 
+    0.99793186104484555
+   ]
+  ], 
   "events": [
+   "securities", 
    "airport", 
    "airlines", 
    "carriers", 
-   "securities", 
-   "minimum"
+   "bomb"
   ]
  }, 
  {
   "docName": "TerroristActivity 50", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    4, 
+    0.62030734013825739
+   ], 
+   [
+    5, 
+    0.37425118547300268
+   ]
+  ], 
   "events": [
-   "radioactive", 
    "bomb", 
+   "radioactive", 
+   "officials", 
    "dhs", 
-   "dirty", 
-   "plot"
+   "dirty"
   ]
  }, 
  {
   "docName": "TerroristActivity 51", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    5, 
+    0.98334947223485192
+   ]
+  ], 
   "events": [
-   "apprehending", 
-   "devices", 
-   "men", 
-   "suspect", 
-   "ciminally"
+   "officials", 
+   "comment", 
+   "centered", 
+   "informal", 
+   "men"
   ]
  }, 
  {
   "docName": "TerroristActivity 52", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    4, 
+    0.99748013565875537
+   ]
+  ], 
   "events": [
    "booking", 
-   "bilyeu", 
-   "publishes", 
+   "president", 
    "times", 
-   "codi"
+   "codi", 
+   "publishes"
   ]
  }, 
  {
   "docName": "TerroristActivity 53", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    6, 
+    0.99676768154362316
+   ]
+  ], 
   "events": [
-   "seaton", 
    "shot", 
-   "title", 
-   "outdoor", 
-   "roy"
+   "world", 
+   "seaton", 
+   "game", 
+   "put"
   ]
  }, 
  {
   "docName": "TerroristActivity 54", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    2, 
+    0.45763816000075103
+   ], 
+   [
+    5, 
+    0.53668157645963355
+   ]
+  ], 
   "events": [
-   "dax", 
+   "trading", 
+   "stock", 
+   "price", 
    "german", 
-   "ibis", 
-   "daimler", 
-   "bonds"
+   "dax"
   ]
  }, 
  {
   "docName": "TerroristActivity 55", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    9, 
+    0.9987767514904603
+   ]
+  ], 
   "events": [
    "tax", 
    "rate", 
    "capital", 
    "gains", 
-   "formation"
+   "new"
   ]
  }, 
  {
   "docName": "TerroristActivity 56", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    5, 
+    0.68021384267780638
+   ], 
+   [
+    8, 
+    0.31200450049642409
+   ]
+  ], 
   "events": [
+   "million", 
    "pesos", 
-   "treasury", 
-   "sold", 
-   "traders", 
-   "shrugged"
+   "market", 
+   "share", 
+   "month"
   ]
  }, 
  {
   "docName": "TerroristActivity 57", 
-  "classNum": 8, 
+  "classNum": [
+   [
+    5, 
+    0.32544975636312112
+   ], 
+   [
+    9, 
+    0.67060080506450315
+   ]
+  ], 
   "events": [
    "bomb", 
    "airport", 
+   "people", 
    "kills", 
-   "blasting", 
-   "briefcase"
+   "blasting"
   ]
  }, 
  {
   "docName": "TerroristActivity 58", 
-  "classNum": 7, 
+  "classNum": [
+   [
+    2, 
+    0.99500338634145991
+   ]
+  ], 
   "events": [
    "kong", 
    "hong", 
-   "sanctions", 
    "china", 
-   "quoted"
+   "trading", 
+   "sanctions"
   ]
  }, 
  {
   "docName": "TerroristActivity 59", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    9, 
+    0.9982826264928456
+   ]
+  ], 
   "events": [
    "shubert", 
+   "elected", 
+   "president", 
    "doster", 
-   "bosnian", 
-   "serb", 
-   "serbian"
+   "party"
   ]
  }, 
  {
   "docName": "TerroristActivity 60", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    3, 
+    0.22838727162828892
+   ], 
+   [
+    4, 
+    0.43365175640743164
+   ], 
+   [
+    5, 
+    0.17416780115424882
+   ], 
+   [
+    7, 
+    0.15717600308704097
+   ]
+  ], 
   "events": [
-   "taiwan", 
-   "china", 
-   "mainland", 
+   "share", 
+   "since", 
    "volume", 
-   "falls"
+   "falls", 
+   "china"
   ]
  }, 
  {
   "docName": "TerroristActivity 61", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    6, 
+    0.99460990544123606
+   ]
+  ], 
   "events": [
    "valujet", 
-   "faa", 
-   "ebert", 
    "flights", 
-   "crews"
+   "faa", 
+   "airlines", 
+   "ebert"
   ]
  }, 
  {
   "docName": "TerroristActivity 62", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    3, 
+    0.99653951352406045
+   ]
+  ], 
   "events": [
-   "wheat", 
    "cents", 
-   "soybeans", 
-   "bushel", 
-   "gasoline"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 63", 
-  "classNum": 1, 
-  "events": [
-   "peru", 
-   "hallmark", 
-   "president", 
-   "chimbote", 
-   "economic"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 64", 
-  "classNum": 6, 
-  "events": [
-   "ltd", 
-   "singapore", 
-   "takeover", 
-   "traders", 
-   "jacoberg"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 65", 
-  "classNum": 5, 
-  "events": [
-   "valujet", 
-   "planes", 
-   "faa", 
-   "airlines", 
-   "safety"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 66", 
-  "classNum": 9, 
-  "events": [
-   "arrest", 
-   "traffic", 
-   "police", 
-   "routinely", 
-   "checks"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 67", 
-  "classNum": 9, 
-  "events": [
-   "lloyd", 
-   "equitas", 
-   "insurer", 
-   "names", 
-   "regulators"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 68", 
-  "classNum": 6, 
-  "events": [
-   "sony", 
-   "pictures", 
-   "booker", 
-   "columbia", 
-   "studio"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 69", 
-  "classNum": 5, 
-  "events": [
-   "taipei", 
-   "jeffery", 
-   "taiwan", 
-   "trust", 
-   "funds"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 70", 
-  "classNum": 5, 
-  "events": [
-   "fidelity", 
-   "insurer", 
-   "funds", 
-   "jacob", 
-   "money"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 71", 
-  "classNum": 9, 
-  "events": [
-   "silver", 
-   "unabomber", 
-   "sacramento", 
-   "documents", 
-   "porter"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 72", 
-  "classNum": 9, 
-  "events": [
-   "inning", 
-   "brewers", 
-   "eighth", 
-   "pitching", 
-   "twins"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 73", 
-  "classNum": 6, 
-  "events": [
-   "sydney", 
-   "equities", 
-   "subindex", 
-   "retail", 
+   "friday", 
+   "market", 
+   "price", 
    "future"
   ]
  }, 
  {
-  "docName": "TerroristActivity 74", 
-  "classNum": 4, 
+  "docName": "TerroristActivity 63", 
+  "classNum": [
+   [
+    8, 
+    0.99719479636766206
+   ]
+  ], 
   "events": [
-   "deductible", 
-   "accounts", 
-   "medical", 
-   "savings", 
+   "president", 
+   "economic", 
+   "peru", 
+   "growth", 
+   "hallmark"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 64", 
+  "classNum": [
+   [
+    5, 
+    0.98798383064805717
+   ]
+  ], 
+  "events": [
+   "share", 
+   "trading", 
+   "stock", 
+   "index", 
+   "ltd"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 65", 
+  "classNum": [
+   [
+    6, 
+    0.99651225175460156
+   ]
+  ], 
+  "events": [
+   "valujet", 
+   "planes", 
+   "airlines", 
+   "safety", 
+   "faa"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 66", 
+  "classNum": [
+   [
+    1, 
+    0.98631735567453194
+   ]
+  ], 
+  "events": [
+   "police", 
+   "arrest", 
+   "may", 
+   "stop", 
+   "found"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 67", 
+  "classNum": [
+   [
+    2, 
+    0.59006140452626543
+   ], 
+   [
+    9, 
+    0.40668212098163586
+   ]
+  ], 
+  "events": [
+   "lloyd", 
+   "billion", 
+   "names", 
+   "insurer", 
+   "market"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 68", 
+  "classNum": [
+   [
+    4, 
+    0.99277061140061718
+   ]
+  ], 
+  "events": [
+   "pictures", 
+   "sony", 
+   "columbia", 
+   "booker", 
+   "president"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 69", 
+  "classNum": [
+   [
+    7, 
+    0.99789748779613729
+   ]
+  ], 
+  "events": [
+   "funds", 
+   "trust", 
+   "taiwan", 
+   "jeffery", 
+   "taipei"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 70", 
+  "classNum": [
+   [
+    4, 
+    0.10376299908768535
+   ], 
+   [
+    6, 
+    0.79509681675780675
+   ], 
+   [
+    9, 
+    0.097821655148001063
+   ]
+  ], 
+  "events": [
+   "funds", 
+   "fidelity", 
+   "company", 
+   "market", 
    "insurer"
   ]
  }, 
  {
+  "docName": "TerroristActivity 71", 
+  "classNum": [
+   [
+    5, 
+    0.9950036704272831
+   ]
+  ], 
+  "events": [
+   "including", 
+   "court", 
+   "evident", 
+   "documents", 
+   "bomb"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 72", 
+  "classNum": [
+   [
+    8, 
+    0.99555409182241728
+   ]
+  ], 
+  "events": [
+   "run", 
+   "inning", 
+   "brewers", 
+   "wins", 
+   "pitching"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 73", 
+  "classNum": [
+   [
+    4, 
+    0.64570509224730299
+   ], 
+   [
+    5, 
+    0.12602696981259909
+   ], 
+   [
+    7, 
+    0.18878614600113577
+   ], 
+   [
+    9, 
+    0.032863871790347242
+   ]
+  ], 
+  "events": [
+   "price", 
+   "close", 
+   "share", 
+   "equities", 
+   "market"
+  ]
+ }, 
+ {
+  "docName": "TerroristActivity 74", 
+  "classNum": [
+   [
+    3, 
+    0.99582485230124462
+   ]
+  ], 
+  "events": [
+   "accounts", 
+   "people", 
+   "deductible", 
+   "year", 
+   "medical"
+  ]
+ }, 
+ {
   "docName": "TerroristActivity 75", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    7, 
+    0.99850276242070957
+   ]
+  ], 
   "events": [
    "terrorist", 
    "threats", 
-   "sen", 
+   "national", 
    "attack", 
-   "wiretaps"
+   "bomb"
   ]
  }, 
  {
   "docName": "TerroristActivity 76", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    5, 
+    0.9867248670572123
+   ]
+  ], 
   "events": [
-   "pmc", 
-   "portland", 
-   "shady", 
-   "correctional", 
-   "energy"
+   "share", 
+   "million", 
+   "corp", 
+   "total", 
+   "monday"
   ]
  }, 
  {
   "docName": "TerroristActivity 77", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    7, 
+    0.99874225707459996
+   ]
+  ], 
   "events": [
    "tractor", 
-   "deere", 
    "farmers", 
-   "showdowns", 
-   "magnum"
+   "case", 
+   "deere", 
+   ".''"
   ]
  }, 
  {
   "docName": "TerroristActivity 78", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    5, 
+    0.99643768462838811
+   ]
+  ], 
   "events": [
    "plant", 
    "connecticut", 
-   "yankee", 
-   "northeast", 
+   "million", 
+   "utilization", 
    "nuclear"
   ]
  }, 
  {
   "docName": "TerroristActivity 79", 
-  "classNum": 7, 
+  "classNum": [
+   [
+    4, 
+    0.98672858900536142
+   ]
+  ], 
   "events": [
+   "states", 
+   "run", 
    "penn", 
    "yards", 
-   "ellinger", 
-   "cyndy", 
-   "touchdowns"
+   "cyndy"
   ]
  }, 
  {
   "docName": "TerroristActivity 80", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    9, 
+    0.97221542136959416
+   ]
+  ], 
   "events": [
-   "beirut", 
-   "embassies", 
    "bomb", 
+   "embassies", 
+   "beirut", 
    "occurred", 
    "airport"
   ]
  }, 
  {
   "docName": "TerroristActivity 81", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    6, 
+    0.99866661860967398
+   ]
+  ], 
   "events": [
    "funds", 
+   "mutual", 
    "fee", 
-   "sec", 
-   "fidelity", 
-   "mutual"
+   "investors", 
+   "sec"
   ]
  }, 
  {
   "docName": "TerroristActivity 82", 
-  "classNum": 8, 
+  "classNum": [
+   [
+    1, 
+    0.99835013058147959
+   ]
+  ], 
   "events": [
-   "luxembourg", 
    "liquids", 
-   "creditors", 
+   "luxembourg", 
    "english", 
-   "bcci"
+   "creditors", 
+   "rules"
   ]
  }, 
  {
   "docName": "TerroristActivity 83", 
-  "classNum": 7, 
+  "classNum": [
+   [
+    7, 
+    0.99219825659445715
+   ]
+  ], 
   "events": [
-   "download", 
-   "navigator", 
+   "company", 
+   "new", 
+   "programming", 
    "vastsoft", 
-   "browser", 
-   "internet"
+   "download"
   ]
  }, 
  {
   "docName": "TerroristActivity 84", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    4, 
+    0.45780640118588156
+   ], 
+   [
+    5, 
+    0.53107914956151114
+   ]
+  ], 
   "events": [
+   "share", 
    "pesetas", 
-   "mapfre", 
-   "madrid", 
-   "traders", 
-   "repsol"
+   "result", 
+   "thursday", 
+   "expects"
   ]
  }, 
  {
   "docName": "TerroristActivity 85", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    2, 
+    0.99521944260261341
+   ]
+  ], 
   "events": [
+   "police", 
    "kozlowski", 
    "assassinate", 
-   "pillow", 
-   "col", 
-   "bangladesh"
+   "charged", 
+   "suspect"
   ]
  }, 
  {
   "docName": "TerroristActivity 86", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.99889104072890411
+   ]
+  ], 
   "events": [
    "electric", 
-   "saudi", 
    "power", 
    "oil", 
+   "saudi", 
    "country"
   ]
  }, 
  {
   "docName": "TerroristActivity 87", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.99866465924556025
+   ]
+  ], 
   "events": [
    "japan", 
+   "year", 
+   "company", 
    "hiring", 
-   "graduate", 
-   "employment", 
-   "spring"
+   "employment"
   ]
  }, 
  {
   "docName": "TerroristActivity 88", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    5, 
+    0.71868996497508952
+   ], 
+   [
+    7, 
+    0.27226337258345457
+   ]
+  ], 
   "events": [
-   "ringgit", 
-   "index", 
-   "sen", 
    "share", 
-   "smaller"
+   "index", 
+   "stock", 
+   "boards", 
+   "second"
   ]
  }, 
  {
   "docName": "TerroristActivity 89", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    2, 
+    0.16523329706712628
+   ], 
+   [
+    9, 
+    0.8311808360512114
+   ]
+  ], 
   "events": [
    "lloyd", 
+   "investors", 
    "berry", 
    "sue", 
-   "investors", 
    "settlement"
   ]
  }, 
  {
   "docName": "TerroristActivity 90", 
-  "classNum": 8, 
+  "classNum": [
+   [
+    5, 
+    0.99559723904217223
+   ]
+  ], 
   "events": [
    "bomb", 
+   "investigation", 
+   "explosives", 
    "missiles", 
-   "traces", 
-   "antarctica", 
-   "investigation"
+   "found"
   ]
  }, 
  {
   "docName": "TerroristActivity 91", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    5, 
+    0.57658378651952436
+   ], 
+   [
+    6, 
+    0.42173186114311667
+   ]
+  ], 
   "events": [
    "fidelity", 
-   "models", 
    "firm", 
-   "research", 
-   "mutual"
+   "models", 
+   "funds", 
+   "research"
   ]
  }, 
  {
   "docName": "TerroristActivity 92", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.99574486380365601
+   ]
+  ], 
   "events": [
-   "comedy", 
-   "comedians", 
-   "danae", 
+   "president", 
+   "networks", 
+   "former", 
    "spot", 
-   "politicians"
+   "comedy"
   ]
  }, 
  {
   "docName": "TerroristActivity 93", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    6, 
+    0.99524424380302723
+   ]
+  ], 
   "events": [
-   "fasb", 
-   "pool", 
+   "accounts", 
    "combination", 
-   "merger", 
-   "accounts"
+   "rules", 
+   "company", 
+   "standard"
   ]
  }, 
  {
   "docName": "TerroristActivity 94", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    4, 
+    0.8308206539341878
+   ], 
+   [
+    7, 
+    0.16227748778443229
+   ]
+  ], 
   "events": [
+   "investment", 
+   "sector", 
    "plastic", 
    "taiwan", 
-   "formosa", 
-   "sector", 
-   "leeanna"
+   "share"
   ]
  }, 
  {
   "docName": "TerroristActivity 95", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.21829932030800603
+   ], 
+   [
+    4, 
+    0.034068871418118304
+   ], 
+   [
+    5, 
+    0.36796240922378565
+   ], 
+   [
+    7, 
+    0.33430373867076152
+   ], 
+   [
+    9, 
+    0.039436833892942322
+   ]
+  ], 
   "events": [
    "chemical", 
    "explosives", 
    "residence", 
    "smogtown", 
-   "terrorist"
+   "informal"
   ]
  }, 
  {
   "docName": "TerroristActivity 96", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    3, 
+    0.99863615038051068
+   ]
+  ], 
   "events": [
    "pain", 
-   "patients", 
-   "epidural", 
    "hospital", 
-   "doctor"
+   "carefully", 
+   "managed", 
+   "patients"
   ]
  }, 
  {
   "docName": "TerroristActivity 97", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    3, 
+    0.99736108155410741
+   ]
+  ], 
   "events": [
-   "bougainville", 
    "mine", 
-   "cra", 
-   "guinea", 
-   "papua"
+   "bougainville", 
+   "year", 
+   "people", 
+   "cra"
   ]
  }, 
  {
   "docName": "TerroristActivity 98", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    9, 
+    0.997703899761885
+   ]
+  ], 
   "events": [
    "fed", 
-   "economy", 
-   "revised", 
    "second", 
-   "gdp"
+   "economy", 
+   "new", 
+   "rate"
   ]
  }, 
  {
   "docName": "TerroristActivity 99", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    5, 
+    0.99747362982795518
+   ]
+  ], 
   "events": [
-   "eldred", 
    "bomb", 
-   "convicted", 
-   "prosecutors", 
-   "defending"
+   "eldred", 
+   "airlines", 
+   "also", 
+   "trials"
   ]
  }, 
  {
   "docName": "TerroristActivity 100", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    5, 
+    0.99597586927129178
+   ]
+  ], 
   "events": [
    "gaylord", 
    "collin", 
    "sport", 
-   "entertainment", 
-   "join"
+   "team", 
+   "executives"
   ]
  }, 
  {
   "docName": "TerroristActivity 101", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    7, 
+    0.99843707620537281
+   ]
+  ], 
   "events": [
-   "bonds", 
-   "bangkok", 
-   "convert", 
    "bank", 
-   "redemption"
+   "bonds", 
+   "price", 
+   "bangkok", 
+   "convert"
   ]
  }, 
  {
   "docName": "TerroristActivity 102", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    9, 
+    0.99800588999438389
+   ]
+  ], 
   "events": [
+   "president", 
    "kyrgyzstan", 
-   "soukup", 
-   "uzbekistan", 
-   "neighboring", 
-   "china"
+   "country", 
+   "states", 
+   "soukup"
   ]
  }, 
  {
   "docName": "TerroristActivity 103", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    5, 
+    0.99833221060751021
+   ]
+  ], 
   "events": [
+   "share", 
    "real", 
-   "thousands", 
    "per", 
-   "telebras", 
-   "share"
+   "thousands", 
+   "stock"
   ]
  }, 
  {
   "docName": "TerroristActivity 104", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    4, 
+    0.9958644845117075
+   ]
+  ], 
   "events": [
    "cents", 
-   "seng", 
-   "hanging", 
-   "subindex", 
-   "chip"
+   "share", 
+   "chip", 
+   "rose", 
+   "million"
   ]
  }, 
  {
   "docName": "TerroristActivity 105", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    2, 
+    0.99440808618853571
+   ]
+  ], 
   "events": [
    "students", 
    "police", 
-   "seoul", 
-   "hanchongryon", 
-   "campus"
+   "south", 
+   "week", 
+   "university"
   ]
  }, 
  {
   "docName": "TerroristActivity 106", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    1, 
+    0.9916886923195678
+   ]
+  ], 
   "events": [
-   "gambling", 
-   "subpoena", 
    "commission", 
+   "gambling", 
    "votes", 
-   "compromise"
+   "subpoena", 
+   "bill"
   ]
  }, 
  {
   "docName": "TerroristActivity 107", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    9, 
+    0.99856323916843415
+   ]
+  ], 
   "events": [
    "bankruptcy", 
    "credit", 
@@ -1178,574 +1877,910 @@
  }, 
  {
   "docName": "TerroristActivity 108", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.78555722809665018
+   ], 
+   [
+    8, 
+    0.21290184510215965
+   ]
+  ], 
   "events": [
+   "year", 
+   ".''", 
+   "local", 
    "mittelfest", 
-   "theater", 
-   "litton", 
-   "rocha", 
-   "music"
+   "open"
   ]
  }, 
  {
   "docName": "TerroristActivity 109", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    5, 
+    0.98764847211746476
+   ]
+  ], 
   "events": [
-   "cds", 
    "yield", 
-   "banxquote", 
-   "denomination", 
-   "average"
+   "average", 
+   "cds", 
+   "year", 
+   "month"
   ]
  }, 
  {
   "docName": "TerroristActivity 110", 
-  "classNum": 7, 
+  "classNum": [
+   [
+    5, 
+    0.27124537807217708
+   ], 
+   [
+    7, 
+    0.72356708317023954
+   ]
+  ], 
   "events": [
    "chateau", 
-   "roc", 
    "community", 
-   "merged", 
-   "swap"
+   "company", 
+   "roc", 
+   "new"
   ]
  }, 
  {
   "docName": "TerroristActivity 111", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    7, 
+    0.98672716414593464
+   ]
+  ], 
   "events": [
-   "apprehending", 
    "suspect", 
-   "revealing", 
-   "raided", 
-   "police"
+   "informal", 
+   "police", 
+   "apprehending", 
+   "revealing"
   ]
  }, 
  {
   "docName": "TerroristActivity 112", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.99881896496051703
+   ]
+  ], 
   "events": [
    "sale", 
-   "remy", 
-   "psr", 
-   "ratio", 
-   "texas"
+   "stock", 
+   "company", 
+   "year", 
+   "share"
   ]
  }, 
  {
   "docName": "TerroristActivity 113", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    5, 
+    0.22675933344750618
+   ], 
+   [
+    8, 
+    0.77207570276893789
+   ]
+  ], 
   "events": [
-   "peter", 
-   "mose", 
    "managed", 
-   "schaefer", 
-   "stock"
+   "market", 
+   "stock", 
+   "peter", 
+   ".''"
   ]
  }, 
  {
   "docName": "TerroristActivity 114", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    5, 
+    0.99580524873934395
+   ]
+  ], 
   "events": [
-   "healthcare", 
-   "aetna", 
+   "share", 
+   "million", 
    "cents", 
-   "merger", 
-   "insurer"
+   "healthcare", 
+   "aetna"
   ]
  }, 
  {
   "docName": "TerroristActivity 115", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    6, 
+    0.99728465283151846
+   ]
+  ], 
   "events": [
+   "game", 
+   "officials", 
    "ioc", 
    "atlanta", 
-   "game", 
-   "acog", 
-   "officials"
+   ".''"
   ]
  }, 
  {
   "docName": "TerroristActivity 116", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    4, 
+    0.67294556683539697
+   ], 
+   [
+    5, 
+    0.32501216429788199
+   ]
+  ], 
   "events": [
-   "lilly", 
-   "johnson", 
    "sale", 
-   "prozac", 
-   "eli"
+   "share", 
+   "lilly", 
+   "billion", 
+   "johnson"
   ]
  }, 
  {
   "docName": "TerroristActivity 117", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    2, 
+    0.39862643954768179
+   ], 
+   [
+    5, 
+    0.59396230251848436
+   ]
+  ], 
   "events": [
-   "dax", 
-   "ibis", 
    "points", 
-   "traders", 
-   "mixed"
+   "trading", 
+   "stock", 
+   "dax", 
+   "index"
   ]
  }, 
  {
   "docName": "TerroristActivity 118", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    5, 
+    0.99668200670038865
+   ]
+  ], 
   "events": [
-   "wreckage", 
    "piece", 
    "planes", 
    "investigation", 
-   "airport"
+   "wreckage", 
+   "look"
   ]
  }, 
  {
   "docName": "TerroristActivity 119", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    5, 
+    0.42137948430721983
+   ], 
+   [
+    7, 
+    0.56626963696553578
+   ]
+  ], 
   "events": [
-   "trespassing", 
-   "livestock", 
    "death", 
-   "brothers", 
-   "farmers"
+   "livestock", 
+   "trespassing", 
+   "april", 
+   "threats"
   ]
  }, 
  {
   "docName": "TerroristActivity 120", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    4, 
+    0.35360973508374982
+   ], 
+   [
+    9, 
+    0.64353960199928972
+   ]
+  ], 
   "events": [
    "drams", 
-   "acer", 
    "marine", 
+   "acer", 
    "memories", 
-   "computer"
+   "price"
   ]
  }, 
  {
   "docName": "TerroristActivity 121", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    8, 
+    0.99807505700912591
+   ]
+  ], 
   "events": [
    "freeze", 
-   "theory", 
-   "camps", 
-   "tax", 
-   "ahead"
+   "price", 
+   "days", 
+   "control", 
+   "look"
   ]
  }, 
  {
   "docName": "TerroristActivity 122", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    8, 
+    0.99699044552818916
+   ]
+  ], 
   "events": [
+   "run", 
+   "game", 
    "phillies", 
    "chamberlain", 
-   "inning", 
-   "magee", 
-   "game"
+   "inning"
   ]
  }, 
  {
   "docName": "TerroristActivity 123", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    7, 
+    0.98322035602285451
+   ]
+  ], 
   "events": [
    "threats", 
-   "lark", 
    "specific", 
-   "release", 
-   "'',"
+   "vastopolis", 
+   "city", 
+   "increases"
   ]
  }, 
  {
   "docName": "TerroristActivity 124", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.99832525383707882
+   ]
+  ], 
   "events": [
-   "uaw", 
-   "supplier", 
-   "union", 
    "contract", 
+   "uaw", 
+   "big", 
+   "union", 
    "plant"
   ]
  }, 
  {
   "docName": "TerroristActivity 125", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    6, 
+    0.30135230634363469
+   ], 
+   [
+    9, 
+    0.69448639653791644
+   ]
+  ], 
   "events": [
    "salcido", 
    "allena", 
    "red", 
-   "ceo", 
-   "cincinnati"
+   "game", 
+   "days"
   ]
  }, 
  {
   "docName": "TerroristActivity 126", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    4, 
+    0.99470640299955582
+   ]
+  ], 
   "events": [
+   "share", 
    "france", 
-   "alsthom", 
-   "alcatel", 
-   "merger", 
-   "share"
+   "company", 
+   "first", 
+   "trading"
   ]
  }, 
  {
   "docName": "TerroristActivity 127", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    8, 
+    0.99869418177825897
+   ]
+  ], 
   "events": [
    "missiles", 
    "derryberry", 
    "defense", 
-   "ballistic", 
-   "programming"
+   "programming", 
+   "president"
   ]
  }, 
  {
   "docName": "TerroristActivity 128", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    8, 
+    0.99713834427427128
+   ]
+  ], 
   "events": [
-   "arabia", 
-   "saudi", 
-   "troops", 
+   "threats", 
    "attack", 
-   "petra"
+   "petra", 
+   "arabia", 
+   "saudi"
   ]
  }, 
  {
   "docName": "TerroristActivity 129", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    4, 
+    0.9958644909342913
+   ]
+  ], 
   "events": [
    "cents", 
-   "seng", 
-   "hanging", 
-   "subindex", 
-   "chip"
+   "share", 
+   "chip", 
+   "rose", 
+   "million"
   ]
  }, 
  {
   "docName": "TerroristActivity 130", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    5, 
+    0.99418932877068555
+   ]
+  ], 
   "events": [
+   "share", 
    "real", 
-   "thousands", 
    "per", 
-   "telebras", 
-   "share"
+   "thousands", 
+   "stock"
   ]
  }, 
  {
   "docName": "TerroristActivity 131", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    4, 
+    0.99586448800718719
+   ]
+  ], 
   "events": [
    "cents", 
-   "seng", 
-   "hanging", 
-   "subindex", 
-   "chip"
+   "share", 
+   "chip", 
+   "rose", 
+   "million"
   ]
  }, 
  {
   "docName": "TerroristActivity 132", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    2, 
+    0.9944080867210191
+   ]
+  ], 
   "events": [
    "students", 
    "police", 
-   "seoul", 
-   "hanchongryon", 
-   "campus"
+   "south", 
+   "week", 
+   "university"
   ]
  }, 
  {
   "docName": "TerroristActivity 133", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    1, 
+    0.46124965434446102
+   ], 
+   [
+    5, 
+    0.53302779058276528
+   ]
+  ], 
   "events": [
+   "price", 
    "marks", 
    "german", 
-   "dax", 
-   "settled", 
-   "bonds"
+   "friday", 
+   "share"
   ]
  }, 
  {
   "docName": "TerroristActivity 134", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.99811581913196445
+   ]
+  ], 
   "events": [
+   ".''", 
    "derryberry", 
-   "sen", 
    "republican", 
-   "gop", 
-   "booth"
+   "party", 
+   "sen"
   ]
  }, 
  {
   "docName": "TerroristActivity 135", 
-  "classNum": 8, 
+  "classNum": [
+   [
+    7, 
+    0.99720352994090333
+   ]
+  ], 
   "events": [
    "gunning", 
-   "arthur", 
    "law", 
-   "hubert", 
-   "abiding"
+   "control", 
+   "result", 
+   "think"
   ]
  }, 
  {
   "docName": "TerroristActivity 136", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.99842610214567906
+   ]
+  ], 
   "events": [
    "characters", 
-   "editor", 
+   "president", 
+   "codi", 
    "derryberry", 
-   "children", 
-   "virtues"
+   "issued"
   ]
  }, 
  {
   "docName": "TerroristActivity 137", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    9, 
+    0.99652567740625742
+   ]
+  ], 
   "events": [
-   "oilers", 
    "georgeanna", 
-   "draft", 
-   "camps", 
-   "heisman"
+   "oilers", 
+   "million", 
+   "sign", 
+   "camps"
   ]
  }, 
  {
   "docName": "TerroristActivity 138", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    2, 
+    0.99843982549131394
+   ]
+  ], 
   "events": [
    "lloyd", 
-   "reinsurance", 
-   "equitas", 
+   "market", 
+   "names", 
    "insurer", 
-   "names"
+   "reinsurance"
   ]
  }, 
  {
   "docName": "TerroristActivity 139", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    5, 
+    0.99742225424075892
+   ]
+  ], 
   "events": [
    "saudi", 
-   "militants", 
-   "arabia", 
    "bomb", 
-   "confessions"
+   "arabia", 
+   "militants", 
+   "group"
   ]
  }, 
  {
   "docName": "TerroristActivity 140", 
-  "classNum": 8, 
+  "classNum": [
+   [
+    4, 
+    0.8074903385516109
+   ], 
+   [
+    5, 
+    0.18674627208488837
+   ]
+  ], 
   "events": [
    "guilders", 
-   "dutch", 
-   "royal", 
-   "construct", 
-   "chemical"
+   "million", 
+   "company", 
+   "wednesday", 
+   "cents"
   ]
  }, 
  {
   "docName": "TerroristActivity 141", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    4, 
+    0.39390596918969772
+   ], 
+   [
+    5, 
+    0.26339427590217745
+   ], 
+   [
+    8, 
+    0.33690040926817683
+   ]
+  ], 
   "events": [
    "pesos", 
-   "subindex", 
-   "uniwide", 
-   "philippines", 
-   "profit"
+   "stock", 
+   "holding", 
+   "profit", 
+   "subindex"
   ]
  }, 
  {
   "docName": "TerroristActivity 142", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    8, 
+    0.99649882289961078
+   ]
+  ], 
   "events": [
    "knighton", 
-   "spd", 
-   "jorgenson", 
+   "planned", 
+   "germany", 
    "monetary", 
-   "austerity"
+   "union"
   ]
  }, 
  {
   "docName": "TerroristActivity 143", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    4, 
+    0.9983639081581841
+   ]
+  ], 
   "events": [
    "devaluation", 
-   "ltd", 
    "kong", 
-   "jeffery", 
-   "china"
+   "ltd", 
+   "china", 
+   "hong"
   ]
  }, 
  {
   "docName": "TerroristActivity 144", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.34599602067520446
+   ], 
+   [
+    4, 
+    0.055499796624500698
+   ], 
+   [
+    5, 
+    0.59584668848637135
+   ]
+  ], 
   "events": [
-   "circus", 
    "bonds", 
-   "goods", 
-   "bigler", 
-   "durable"
+   "share", 
+   "market", 
+   "stock", 
+   "orders"
   ]
  }, 
  {
   "docName": "TerroristActivity 145", 
-  "classNum": 6, 
+  "classNum": [
+   [
+    6, 
+    0.93170425567877302
+   ], 
+   [
+    9, 
+    0.064424696971372264
+   ]
+  ], 
   "events": [
    "seed", 
    "semifinals", 
    "bosch", 
-   "quarterfinals", 
-   "outlasting"
+   "set", 
+   "quarterfinals"
   ]
  }, 
  {
   "docName": "TerroristActivity 146", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    6, 
+    0.99899061454953253
+   ]
+  ], 
   "events": [
-   "atlanta", 
    "game", 
-   "ioc", 
+   "atlanta", 
    "city", 
-   "hanh"
+   "ioc", 
+   "even"
   ]
  }, 
  {
   "docName": "TerroristActivity 147", 
-  "classNum": 8, 
+  "classNum": [
+   [
+    9, 
+    0.99092525650677354
+   ]
+  ], 
   "events": [
-   "turkey", 
    "airport", 
-   "loudermilk", 
-   "baggage", 
-   "verified"
+   "turkey", 
+   "bomb", 
+   "delayed", 
+   "baggage"
   ]
  }, 
  {
   "docName": "TerroristActivity 148", 
-  "classNum": 7, 
+  "classNum": [
+   [
+    4, 
+    0.99760908207625132
+   ]
+  ], 
   "events": [
-   "israel", 
-   "coca", 
    "cola", 
-   "latham", 
-   "venezuela"
+   "coca", 
+   "israel", 
+   "deal", 
+   "latham"
   ]
  }, 
  {
   "docName": "TerroristActivity 149", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    4, 
+    0.64011251770013355
+   ], 
+   [
+    6, 
+    0.35403674390705125
+   ]
+  ], 
   "events": [
+   "bank", 
    "nationsbank", 
    "boatmen", 
-   "bank", 
-   "bankers", 
-   "takeover"
+   "deal", 
+   "pay"
   ]
  }, 
  {
   "docName": "TerroristActivity 150", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    5, 
+    0.99722945650621941
+   ]
+  ], 
   "events": [
    "ferreira", 
    "dolphins", 
-   "coach", 
-   "shula", 
-   "jona"
+   ".''", 
+   "new", 
+   "year"
   ]
  }, 
  {
   "docName": "TerroristActivity 151", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.99866719891345823
+   ]
+  ], 
   "events": [
    "adm", 
    "lysine", 
-   "andrew", 
-   "corn", 
-   "winford"
+   "executives", 
+   "million", 
+   "price"
   ]
  }, 
  {
   "docName": "TerroristActivity 152", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    5, 
+    0.99613345227198324
+   ]
+  ], 
   "events": [
    "casino", 
    "sun", 
-   "taft", 
-   "hayes", 
-   "griffin"
+   "company", 
+   "city", 
+   "game"
   ]
  }, 
  {
   "docName": "TerroristActivity 153", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.99875629221045914
+   ]
+  ], 
   "events": [
-   "abortion", 
    "democrats", 
-   "women", 
+   "party", 
    "life", 
-   "party"
+   "abortion", 
+   "women"
   ]
  }, 
  {
   "docName": "TerroristActivity 154", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    3, 
+    0.99745196397362601
+   ]
+  ], 
   "events": [
-   "rail", 
    "union", 
-   "railroads", 
-   "strike", 
-   "shutdown"
-  ]
- }, 
- {
-  "docName": "TerroristActivity 155", 
-  "classNum": 3, 
-  "events": [
-   "freight", 
    "rail", 
    "railroads", 
-   "union", 
+   "workers", 
    "strike"
   ]
  }, 
  {
+  "docName": "TerroristActivity 155", 
+  "classNum": [
+   [
+    2, 
+    0.10725264168473145
+   ], 
+   [
+    3, 
+    0.76429367015612992
+   ], 
+   [
+    9, 
+    0.11944150428933849
+   ]
+  ], 
+  "events": [
+   "reach", 
+   "union", 
+   "freight", 
+   "agreement", 
+   "workers"
+  ]
+ }, 
+ {
   "docName": "TerroristActivity 156", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    9, 
+    0.99444234517597008
+   ]
+  ], 
   "events": [
    "bosnian", 
    "serb", 
    "shubert", 
    "nato", 
-   "serbian"
+   "party"
   ]
  }, 
  {
   "docName": "TerroristActivity 157", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    6, 
+    0.99684601315300614
+   ]
+  ], 
   "events": [
    "game", 
-   "ceremonies", 
    "securities", 
-   "terrorism", 
-   "terrorist"
+   ".''", 
+   "open", 
+   "officials"
   ]
  }, 
  {
   "docName": "TerroristActivity 158", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    7, 
+    0.99547264799125701
+   ]
+  ], 
   "events": [
    "emails", 
-   "located", 
-   "overseas", 
+   "group", 
    "networks", 
-   "group"
+   "authorization", 
+   "located"
   ]
  }, 
  {
   "docName": "TerroristActivity 159", 
-  "classNum": 9, 
+  "classNum": [
+   [
+    4, 
+    0.61684576382078948
+   ], 
+   [
+    5, 
+    0.37775055183113321
+   ]
+  ], 
   "events": [
-   "radioactive", 
    "bomb", 
+   "radioactive", 
+   "officials", 
    "dhs", 
-   "dirty", 
-   "plot"
+   "dirty"
   ]
  }
 ]

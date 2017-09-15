@@ -11,6 +11,8 @@ import csv
 
 import os
 
+
+
 #from scipy.stats import entropy
 #from nltk.tokenize import regexp_tokenize, wordpunct_tokenize, blankline_tokenize
 import nltk
@@ -23,6 +25,9 @@ from gensim import corpora, models
 import codecs
 import gensim
 import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 import time
 from datetime import datetime
 from collections import Counter
@@ -70,18 +75,14 @@ def is_int(s):
 
 
 def LDA_Topic(Int_type, de_stemmer, corp,Text_lda1, my_dictionary,Text_tfidf):  
-    # Defines LDA topic number for search terms/notes/highlights/etc/etc.
+    # Find LDA topic probabilities for search terms/notes/highlights/etc.
     # ------------------- 1 Stop words----------------------
     
-    # <span class="highlight-pink">Cato</span>']
-    
-    #raw = re.sub("\d+","",raw)
-    #raw = raw.replace("’","'")    
     English_stop_words = get_stop_words('en')
     My_list = ['span', 'highlight', 'pink','class', 'one','two','three','four','five','six','seven','eight','nine','ten', '://' ,'http', 'www' ,'com', 'don', 'pre', 'paid', 'must', 'tcan',  'twhen', 'twhat', 'via','are', 'will' ,'said', 'can', 'near', 'and', 'the', 'i', 'a', 'to', 'it', 'was', 'he', 'of', 'in', 'you', 'that', 'but', 'so', 'on', 'up', 'we', 'all', 'for', 'out', 'me', 'him', 'they', 'says', 'got', 'then', 'there', 'no', 'his', 'as', 'with', 'them', 'she', 'said', 'down', 'see', 'had', 'when', 'about', 'what', 'my', 'well', 'if', 'at', 'come', 'would', 'by', 'one', 'do', 'be', 'her', "didn't", 'jim', 'get', "don't", 'time', 'or', 'right', 'could', 'is', 'went', "warn't", "ain't", 'good', 'off', 'over', 'go', 'just', 'way', 'like', 'old', 'around', 'know', 'de', 'now', 'this', 'along', 'en', 'done', 'because', 'back', "it's", 'tom', "couldn't", 'ever', 'why', 'going', 'little', 'some', 'your', 'man', 'never', 'too', 'more', 'say', 'says', 'again', 'how', 'here', 'tell', 'posted' , 'need' , 'needs' , 'someone', 'government', 'intelligence', 'report']
     
     stoplist_1 = set('a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9 0'.split(' ')) # Create a set of enlighs alphabets
-    stoplist_2 = set(); #English_stop_words)
+    stoplist_2 = set(English_stop_words)
     stoplist_3 = set('es la . , . <br> <br><br> br > : >< < .< { } [ ] ( ) .' '\' ` " “ ” ? ! - \u201d< \u201d .\u201d \u201d u201d \u2019 \xe9 !< >!'.split(' ')) # Create a set 
     stoplist_4 = set(My_list)
     
@@ -89,8 +90,6 @@ def LDA_Topic(Int_type, de_stemmer, corp,Text_lda1, my_dictionary,Text_tfidf):
     # ------------------- 2 tokenizer ----------------------
     stopped_tokens = [[word for word in WordPunctTokenizer().tokenize(str(document).lower()) if ((word not in stoplist) & (word != u'.\u201d<') &(word != u'.\u201d') & (len(word) > 2)  & (is_int(word) == False) )]#  & (is_int(word) == False)  & (len(word) > 3) & (len(word) == len(word.strip({0,1,2,3,4,5,6,7,8,9}))) )] #(re.search('\d+',	 word) == False) ) ]
         for document in corp]
-    # stopped_tokens = [[word for word in WordPunctTokenizer().tokenize(str(document).lower()) if ((word not in stoplist) & (word != u'.\u201d<') &(word != u'.\u201d') & (len(word) > 2)  & (is_int(word) == False) )]#  & (is_int(word) == False)  & (len(word) > 3) & (len(word) == len(word.strip({0,1,2,3,4,5,6,7,8,9}))) )] #(re.search('\d+',	 word) == False) ) ]
-        # for document in corp]
 		
 	# ------------------- 3 Stemming and Count word frequencies -------------------
     p_stemmer = PorterStemmer()
@@ -113,7 +112,7 @@ def LDA_Topic(Int_type, de_stemmer, corp,Text_lda1, my_dictionary,Text_tfidf):
     # ------------------- 4 Dictionary and TF-IDF Vectors -------------------    
     ids2words = my_dictionary.token2id
     bow_corpus = [my_dictionary.doc2bow(text) for text in processed_corpus]
-    all_vectors = Text_tfidf[bow_corpus] #bow_corpus]   # Gives representative vectors 	  
+    #all_vectors = Text_tfidf[bow_corpus]   # Gives representative vectors 	  
 
     # ------------------- 5 Document Vectors and Classification -------------------    
 
@@ -123,12 +122,18 @@ def LDA_Topic(Int_type, de_stemmer, corp,Text_lda1, my_dictionary,Text_tfidf):
     for each in range(0, class_num):
         counter.append(0)
 
-    for index, document in enumerate(all_vectors):    # Each documents probability to calss
+    for index, document in enumerate(bow_corpus):    # Each documents probability to calss
         doc_topics.append(Text_lda1.get_document_topics(document)) # , minimum_probability=0.19)
+        
         new_list = []		
+        
         for each_topic in doc_topics[-1]:
             new_list.append(each_topic[1])
         t_index, value = max(enumerate(new_list), key=operator.itemgetter(1))		
+    
+    new_doc_topics = []		
+    for each_topic in doc_topics[-1]:
+        new_doc_topics.append([each_topic[0] + 1 , each_topic[1]])    # Documents Probability of Topics 
         
     # ------------------- 6 Word tags -------------------    
     new_list = []	
@@ -136,10 +141,10 @@ def LDA_Topic(Int_type, de_stemmer, corp,Text_lda1, my_dictionary,Text_tfidf):
     i = 0 
     # Words from doc TF-IDF Vector
     # Sort word bag of each document 
-    if len(all_vectors[0]) > 3: 
-        new_list = sorted(all_vectors[0], key=lambda prob: prob[1], reverse=True)
+    if len(bow_corpus[0]) > 3: 
+        new_list = sorted(bow_corpus[0], key=lambda prob: prob[1], reverse=True)
     else:
-        new_list = all_vectors[0]
+        new_list = bow_corpus[0]
         
     for i in range(0,len(new_list)):   # Pick the firts 5 keywords in sorted list
         for key in ids2words:
@@ -153,20 +158,18 @@ def LDA_Topic(Int_type, de_stemmer, corp,Text_lda1, my_dictionary,Text_tfidf):
     # ------------------- 6 Final Word tags and sorting -------------------
     # temp = [""]
     temp = corp[0]
-    if Int_type == "Search":  # 
+    if Int_type == "search":  
         finalBag[t_index + 1] = finalBag[t_index + 1] + ' ' + temp[0] + ' ' + temp[0] + ' ' + temp[0]
-    elif Int_type == "Add note":
+    elif Int_type == "writing_notes":
         finalBag[t_index + 1] = finalBag[t_index + 1] + ' ' + temp[0] + ' ' + temp[0]
     else:
         finalBag[t_index + 1] = finalBag[t_index + 1] + ' ' + temp[0]
     
-    return t_index + 1
+    return new_doc_topics
 	
 def LDA_Topic_Clustering(corp,reading_weight, new_model,class_num,LDA_passes,x,y):
-
+    
     # ------------------- 1 Stop words----------------------
-    #raw = re.sub("\d+","",raw)
-    #raw = raw.replace("’","'")    
     English_stop_words = get_stop_words('en')
     My_list = [".'",".']","]']","\'\'", 'one','two','three','four','five','six','seven','eight','nine','ten', '://' ,'http', 'www' ,'com', 'don', 'pre', 'paid', 'must', 'tcan',  'twhen', 'twhat', 'via','are', 'will' ,'said', 'can', 'near', 'and', 'the', 'i', 'a', 'to', 'it', 'was', 'he', 'of', 'in', 'you', 'that', 'but', 'so', 'on', 'up', 'we', 'all', 'for', 'out', 'me', 'him', 'they', 'says', 'got', 'then', 'there', 'no', 'his', 'as', 'with', 'them', 'she', 'said', 'down', 'see', 'had', 'when', 'about', 'what', 'my', 'well', 'if', 'at', 'come', 'would', 'by', 'one', 'do', 'be', 'her', "didn't", 'jim', 'get', "don't", 'time', 'or', 'right', 'could', 'is', 'went', "warn't", "ain't", 'good', 'off', 'over', 'go', 'just', 'way', 'like', 'old', 'around', 'know', 'de', 'now', 'this', 'along', 'en', 'done', 'because', 'back', "it's", 'tom', "couldn't", 'ever', 'why', 'going', 'little', 'some', 'your', 'man', 'never', 'too', 'more', 'say', 'says', 'again', 'how', 'here', 'tell', 'message', 'posted' , 'need' , 'needs' , 'someone', 'government', 'intelligence', 'report']
     
@@ -181,20 +184,18 @@ def LDA_Topic_Clustering(corp,reading_weight, new_model,class_num,LDA_passes,x,y
 
     stopped_tokens = [[word for word in WordPunctTokenizer().tokenize(str(document).lower()) if ((word not in stoplist) & (word != u'.\u201d<') &(word != u'.\u201d') & (word != u'\u201c') & (len(word) > 2)  & (is_int(word) == False) )]#  & (is_int(word) == False)  & (len(word) > 3) & (len(word) == len(word.strip({0,1,2,3,4,5,6,7,8,9}))) )] #(re.search('\d+',	 word) == False) ) ]
         for document in corp]
-				
-
     
 	# ------------------- 3 Stemming and Count word frequencies -------------------
     p_stemmer = PorterStemmer()
     stemmer = {}              
     texts = []	
-    texts_set = [] #set()
+    texts_set = [] 
     de_stemmer = {}
   
     for stopped_token in stopped_tokens:
         stemmed_texts = [p_stemmer.stem(i) for i in stopped_token]
         texts_set += [stemmed_texts]		
-    #texts_set = stopped_tokens    # Without stemmer  
+
     
     for j in range(0,len(texts_set)):
         for i in range(0,len(texts_set[j])):
@@ -220,27 +221,25 @@ def LDA_Topic_Clustering(corp,reading_weight, new_model,class_num,LDA_passes,x,y
     for each_doc in bow_corpus:
         new = []	
         for each_word in each_doc:
-            new.append((each_word[0], each_word[1]*(1+reading_weight[i]))) # new.append(each_word[0], float(each_word[1]) * (1+reading_weight[i]))
+            new.append((each_word[0], each_word[1]*(1+reading_weight[i])))   # reading_weight manipulates document vectors based on their reading duration  
             j+=1			
         new_corp.append(new)			
         i+=1
-    # train the model
+        # train the model
     Text_tfidf = models.TfidfModel(new_corp)
-    # What if we switch TF-IDF and interaction weighting ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+        # What if we switch TF-IDF and interaction weighting 
     all_vectors = Text_tfidf[new_corp] #bow_corpus]   # Gives representative vectors 	  
     
     # ------------------- 5 LDA Model and -------------------    
     
-    if os.path.isfile("D:/TopicModeling/LDAmodels/LDAmodel_dataset" + str(x) + "_P" + str(y) + "_class" +str(class_num)+".lda") ==0 or (new_model == 1):  # Do you want to train the model?
+    if os.path.isfile("D:/TextAnalysisTopicModeling/LDAmodels/LDAmodel_dataset" + str(x) + "_P" + str(y) + "_class" +str(class_num)+".lda") ==0 or (new_model == 1):  # Do you want to train the model?
         print "\n LDA Model Training..."   
-        # 1- all_vectors is a weighted doc vectors passed through tfidf model
-        #Text_lda = models.LdaModel(all_vectors, id2word=my_dictionary, num_topics= class_num, passes = LDA_passes)		# with the TF-IDF model
-        # 2- new_corp is a weighted doc vectors
+        # new_corp: a weighted doc vectors which feeds LDA model 
         Text_lda = models.LdaModel(new_corp, id2word=my_dictionary, num_topics= class_num, passes = LDA_passes)		#  with out TF-IDF model
-        Text_lda.save("D:/TopicModeling/LDAmodels/LDAmodel_dataset" + str(x) + "_P" + str(y) + "_class" + str(class_num) + ".lda") # same for tfidf, lsa, ...
+        Text_lda.save("D:/TextAnalysisTopicModeling/LDAmodels/LDAmodel_dataset" + str(x) + "_P" + str(y) + "_class" + str(class_num) + ".lda") # same for tfidf, lsa, ...
     else:		
         print "\n LDA Model Loading..."
-        Text_lda = models.LdaModel.load("D:/TopicModeling/LDAmodels/LDAmodel_dataset" + str(x) + "_P" + str(y) + "_class" +str(class_num)+".lda")			
+        Text_lda = models.LdaModel.load("D:/TextAnalysisTopicModeling/LDAmodels/LDAmodel_dataset" + str(x) + "_P" + str(y) + "_class" +str(class_num)+".lda")			
         
     # ------------------- 6 Document Vectors and Classification -------------------    
 
@@ -250,17 +249,18 @@ def LDA_Topic_Clustering(corp,reading_weight, new_model,class_num,LDA_passes,x,y
     for each in range(0, class_num):
         counter.append(0)
 		
-    for index, document in enumerate(all_vectors):    # Each documents probability to calss
+    for index, document in enumerate(new_corp):    # Each documents probability to calss
         # infer topic distribution for each document
-        doc_topics.append(Text_lda.get_document_topics(document)) # , minimum_probability=0.19)
-#        No_Topic = 1
+        doc_topics.append(Text_lda.get_document_topics(document)) # , minimum_probability=0.01))
         new_list = []		
         for each_topic in doc_topics[-1]:
             new_list.append(each_topic[1])
+        
             
         t_index, value = max(enumerate(new_list), key=operator.itemgetter(1))		
         
         counter[t_index] += 1		
+
     # ------------------- 7 Create a bag for topic keywords -------------------            
     topicWordTags = []
     topicWordTags2 = []
@@ -276,9 +276,9 @@ def LDA_Topic_Clustering(corp,reading_weight, new_model,class_num,LDA_passes,x,y
     # ------------------- 8 Topic summary output -------------------            
     output_topics = Text_lda.show_topics(num_topics=class_num, num_words=15, formatted=False)   # To review topics and terms individually 
     
-    return finalBag, topicWordTags, topicWordTags2, topicWordTags3, de_stemmer, ids2words, all_vectors, Text_lda, my_dictionary, Text_tfidf, output_topics, de_stemmer, doc_topics
+    return finalBag, topicWordTags, topicWordTags2, topicWordTags3, de_stemmer, ids2words, new_corp, Text_lda, my_dictionary, Text_tfidf, output_topics, de_stemmer, doc_topics
 
-def save_topic_docs(EntList, my_dictionary1, docs_number, ids2words, doc_vectors, output_topics, doc_topics, de_stemmer, class_num, keyword_num, filename, filename2, filename3):   
+def save_topic_docs(EntList, my_dictionary1, docs_number, ids2words, doc_vectors, output_topics, doc_topics, de_stemmer, class_num, keyword_num, filename, filename2, filename3):
 
     json_hash = []
     doc_topic = []
@@ -286,6 +286,7 @@ def save_topic_docs(EntList, my_dictionary1, docs_number, ids2words, doc_vectors
     total_prob = []
     interference = []
     doc_topic_array	= []
+    mix_doc_topic_array = []
     doc_key_word = []	
     doc_topic_keywords = []
 	
@@ -316,26 +317,30 @@ def save_topic_docs(EntList, my_dictionary1, docs_number, ids2words, doc_vectors
         new_list = []		
         for each_topic in each_doc:
             new_list.append(each_topic[1])
-                			
-        topic_index, value = max(enumerate(new_list), key=operator.itemgetter(1))  #  topic_index + 1 
+        
+        topic_index, value = max(enumerate(new_list), key=operator.itemgetter(1))    # finding the topic with the most probability.
         total_prob[topic_index] += value
         
         doc_topic_keywords[topic_index + 1] = doc_topic_keywords[topic_index + 1] + " " + key_words[0] +  " " + key_words[1] +  " " + key_words[2] +  " " + key_words[3] +  " " + key_words[4]
         
         j=0			
         interference[doc_no] = []		
-#        interference[doc_no].append(topic_index) 			
         for each in new_list:
             if (each > 0.1):
                 interference[doc_no].append(j) 			
             j+=1				
-			
-        temp = {"docName": name+" "+str(doc_index+1), "classNum": topic_index+1, "events": key_words}
-        json_hash.append(temp)	
+        
+        new_list = []		
+        for each_topic in each_doc:
+            new_list.append([each_topic[0] + 1 , each_topic[1]])    # Documents Probability of Topics 
+
+        temp = {"docName": name+" "+str(doc_index+1), "classNum": new_list, "events": key_words}
+        json_hash.append(temp)
 		
         doc_topic[topic_index] += 1		
         doc_no += 1
         doc_topic_array.append(topic_index + 1)		# <<<<<<<<<<< To here 
+        mix_doc_topic_array.append(new_list)
         doc_key_word.append(key_words)     # save key words
 
         doc_index += 1			
@@ -397,6 +402,7 @@ def save_topic_docs(EntList, my_dictionary1, docs_number, ids2words, doc_vectors
             texts_set = [] #set()
           
             for stopped_token in stopped_tokens:
+                print "\n this: ", stopped_token
                 stemmed_texts = [p_stemmer.stem(i) for i in stopped_token]
                 texts_set += [stemmed_texts]			
                 
@@ -489,7 +495,7 @@ def save_topic_docs(EntList, my_dictionary1, docs_number, ids2words, doc_vectors
                     if ids2words[key] == new_list[i][0]: # bow_corpus[1][2][0]:
                         if (k<20):              # first 3 keywords, no more 
                             term = de_stemmer[key]
-                             topicWordTags3[j].append([str(term), 3,0.1])   # Add this to the bag of words  
+                            topicWordTags3[j].append([str(term), 3,0.1])   # Add this to the bag of words  
                             k = k+1
             
         # ------------------------------ Add entities from user interactions ----------------------
@@ -527,7 +533,7 @@ def save_topic_docs(EntList, my_dictionary1, docs_number, ids2words, doc_vectors
         fout.write(json.dumps(topic_hash,indent=1))
         fout.close()
 
-    return doc_topic_array, doc_key_word
+    return mix_doc_topic_array, doc_key_word
 
 def Read_dataset(json_file):	
 
@@ -561,20 +567,20 @@ def Read_user_interactions(interaction_file,docs_number):
     i = 0
     for a_interaction in all_interactions:
     # ------------------- Highlight terms ----------------------				
-        if 	a_interaction["InteractionType"] == "Highlight" and a_interaction["ID"] != []:
+        if 	a_interaction["InteractionType"] == "highlight" and a_interaction["ID"] != []:
             if len(a_interaction["ID"].split(" ")) > 1:
                 num = int(a_interaction["ID"].split(" ")[1])  - 1
             else: 
                 num = 1
-            highlight_plus[num] = a_interaction["Text"] + " "
+            highlight_plus[num] = a_interaction["Text"].encode('utf-8') + " "
     # ------------------- Reading Time ----------------------			
-        if 	a_interaction["InteractionType"] == "Reading" and a_interaction["ID"] != []:
+        if 	a_interaction["InteractionType"] == "reading_document" and a_interaction["ID"] != []:
             num = int(a_interaction["ID"].split(" ")[1]) - 1			        
             reading_time[num] += a_interaction["duration"]			
 
     # ------------------- Search terms ----------------------			
-        if 	a_interaction["InteractionType"] == "Search":
-            search_terms.append(a_interaction["Text"])			
+        if 	a_interaction["InteractionType"] == "search":
+            search_terms.append(a_interaction["Text"].encode('utf-8'))			
 			
     search_list = []	
 	
@@ -605,65 +611,70 @@ def Read_user_interactions(interaction_file,docs_number):
         search_terms.append(temp)				
     return all_interactions, highlight_plus,reading_time,search_terms,note_terms
 
-def documents_interaction(magic_number, data_set_docs, highlight_plus,search_terms,note_terms,docs_number, reading_time):  # Highlights, Reading time, search term, note_term
+def documents_interaction(doc_vector_manip_factor, data_set_docs, highlight_plus,search_terms,note_terms,docs_number, reading_time): 
     iter = 0
-    newDataset = []	
-    reading_weight = []					
+    newDataset = []
+    reading_weight = []
 
     tot = sum(list(reading_time))	
     
     for each in reading_time:
-        reading_weight.append(magic_number* float(each)/tot)
-	
-    i = 0	
+        reading_weight.append(doc_vector_manip_factor * (each)/tot)
+
+    i = 0
     for doc in data_set_docs:
-        newDataset.append([search_terms[i] + highlight_plus[i] + doc])    # Add highlights to the text. // Adding notes to the 
+        newDataset.append([search_terms[i].encode('utf-8') + highlight_plus[i].encode('utf-8') + doc.encode('utf-8')])    # Add highlights to the text. // Adding notes to the 
         i += 1
 
     return newDataset, reading_weight
 
-
-def classNum(Text_lda, magic_number, doc_name,Int_type,Int_text, doc_topic_array,last_class, doc_key_word, reading_time,splitby):
+def classNum(Text_lda, doc_vector_manip_factor, doc_name,Int_type,Int_text, doc_topic_array,last_class, doc_key_word, reading_time,splitby):
 
     classNumtoShow = []	
     reading_weight = []					
-	
+    
     tot = sum(list(reading_time))	# Create reading_weight from reading time of each document to increase height.
     for each in reading_time:
-        reading_weight.append(magic_number* float(each)/tot)
+        reading_weight.append(doc_vector_manip_factor * float(each)/tot)
 	
-    if Int_type == "Highlight":  # to fill bag topic wordtags
-        thiss = LDA_Topic(Int_type, de_stemmer,[[Int_text]],Text_lda,my_dictionary,Text_tfidf)
-        
-    if Int_type == "Search":  # To get to topic num and filling topic wordtags
-        thiss = LDA_Topic(Int_type, de_stemmer,[[Int_text]],Text_lda,my_dictionary,Text_tfidf)
-        return [thiss], "", 0
-    elif Int_type == "Add note":
-        thiss = LDA_Topic(Int_type, de_stemmer, [[Int_text]],Text_lda,my_dictionary,Text_tfidf)
-        return [thiss], "", 0    
+    if Int_type == "highlight":  # to fill bag topic wordtags
+        topic_no = LDA_Topic(Int_type, de_stemmer,[[Int_text]],Text_lda,my_dictionary,Text_tfidf)
+        return topic_no, "", 0
+    if Int_type == "search":  # To get to topic num and filling topic wordtags
+        topic_no = LDA_Topic(Int_type, de_stemmer,[[Int_text]],Text_lda,my_dictionary,Text_tfidf)
+        return topic_no, "", 0
+    elif Int_type == "writing_notes":
+        topic_no = LDA_Topic(Int_type, de_stemmer, [[Int_text]],Text_lda,my_dictionary,Text_tfidf)
+        return topic_no, "", 0
     elif isinstance( doc_name, int ):
-        return [last_class], "", 0
+        return last_class, "", 0
     else:		
         if len(doc_name.split(",")) == 2:
             mystring1 = (doc_name.split(",")[0])
             mystring2 = (doc_name.split(",")[1])
-            num1 = int(mystring1.split(splitby)[1]) - 1		
-            classNumtoShow.append(doc_topic_array[num1 - 1])	# minus one from topic_array number		
-
+            num1 = int(mystring1.split(splitby)[1]) - 1	  # First Document number 	
+            # classNumtoShow.append(doc_topic_array[num1])	# Document number minus one from topic_array number
+            classNumtoShow = doc_topic_array[num1]
+            
             if ("MyNotes" in mystring2.lower()) or ("note" in mystring2.lower()) or ("prompt" in mystring2.lower()) or ("notes" in mystring2.lower()):    #len(mystring2.split(splitby)[1]) > 5: #len(mystring2.split("y")[1] > 5):#isinstance(mystring2.split("y")[1], int):
-                classNumtoShow.append(doc_topic_array[num1 - 1])	# minus one from topic_array number														
+                #topic_no = LDA_Topic(Int_type, de_stemmer, [[Int_text]],Text_lda,my_dictionary,Text_tfidf)
+                # classNumtoShow.append(doc_topic_array[num1])	# minus one from topic_array number														
+                # classNumtoShow += doc_topic_array[num1]   Just do nothing 
+                return classNumtoShow , doc_key_word[num1] , 0
             else: 					
-                num2 = int(mystring2.split(splitby)[1]) - 1						
-                classNumtoShow.append(doc_topic_array[num2 - 1])	# minus one from topic_array number									
-            return classNumtoShow, "", 0	
+                num2 = int(mystring2.split(splitby)[1]) - 1		# First Document number 	
+                # classNumtoShow.append(doc_topic_array[num2])	# minus one from topic_array number									
+                classNumtoShow += doc_topic_array[num2]
+            return classNumtoShow, doc_key_word[num1] + doc_key_word[num2], 0	
         else:
-            if (len(doc_name.split(" ")) > 1):
-                num = int(doc_name.split(" ")[1]) - 1		
-                classNumtoShow.append(doc_topic_array[num - 1])   # minus one from topic_array number
+            if (len(doc_name.split(" ")) > 1):   # If open_document or reading_document
+                num = int(doc_name.split(" ")[1]) - 1		# document number 
+                # classNumtoShow.append(doc_topic_array[num])   # minus one from topic_array number
+                classNumtoShow = doc_topic_array[num]
             else:
-                 return [last_class], "", 0
+                return last_class, "", 0
                  
-            return classNumtoShow , doc_key_word[num - 1] , (1 + reading_weight[num - 1]) 
+            return classNumtoShow , doc_key_word[num] , (1 + reading_weight[num])
 
 def stepHeight(interaction_file,docs_number):
 
@@ -690,7 +701,7 @@ def stepHeight(interaction_file,docs_number):
 			
     return 0
 
-def seg_duration(Text_lda, magic_number, all_interactions, a_interaction, counter, doc_topic_array, classNumtoShow, last_class, doc_key_word, reading_time, splitby):
+def seg_duration(Text_lda, doc_vector_manip_factor, all_interactions, a_interaction, counter, doc_topic_array, classNumtoShow, last_class, doc_key_word, reading_time, splitby):
 
     i=0
     still = 1	
@@ -702,9 +713,9 @@ def seg_duration(Text_lda, magic_number, all_interactions, a_interaction, counte
 	
         if (still == 1) and (each_int["time"] > time_inter) and (each_int["time"] < (time_inter + duration_max)) and (each_int["InteractionType"] in main_events):
 		
-            int_duration = each_int["time"] - time_inter - 1 # minues 0.1 seconds
+            int_duration = each_int["time"] - time_inter - 0.1 # minues 0.1 seconds
             still = 0 # always stops the duration, below is stop is interaction in the same class occured
-            classNumtoShow_2, docKeyWords_2, reading_w_2 = classNum(Text_lda, magic_number, each_int["ID"],each_int["InteractionType"],each_int["Text"], doc_topic_array, last_class, doc_key_word, reading_time, splitby) #reading_weight)			
+            classNumtoShow_2, docKeyWords_2, reading_w_2 = classNum(Text_lda, doc_vector_manip_factor, each_int["ID"],each_int["InteractionType"],each_int["Text"], doc_topic_array, last_class, doc_key_word, reading_time, splitby) #reading_weight)			
 			#doc_name,Int_type,Int_text
             if (classNumtoShow[0] == classNumtoShow_2[0]):
                 still = 0			
@@ -720,162 +731,171 @@ def seg_duration(Text_lda, magic_number, all_interactions, a_interaction, counte
 						
     return int_duration
 	
-def topic_threads(Text_lda, magic_number, all_interactions, doc_topic_array,doc_key_word, docs_number, reading_time, splitby): #reading_weight):
+def time_topic_data(Text_lda, doc_vector_manip_factor, all_interactions, doc_topic_array,doc_key_word, docs_number, reading_time, splitby): 
 
-    last_class = 0
+    last_class = [[1,1]]
     ret = []
-    counter = 0
+    sort_counter = 0
+    sort_duration = 0
 #    reading_weight = stepHeight(all_interactions, docs_number)
 	
     for a_interaction in all_interactions:
         
-        classNumtoShow, docKeyWords, reading_w = classNum(Text_lda, magic_number, a_interaction["ID"],a_interaction["InteractionType"],a_interaction["Text"], doc_topic_array, last_class, doc_key_word, reading_time,splitby) #reading_weight)	
-        last_class = classNumtoShow[0]		
-        int_duration = seg_duration(Text_lda, magic_number, all_interactions, a_interaction, counter, doc_topic_array, classNumtoShow, last_class, doc_key_word, reading_time, splitby)
+        classNumtoShow, docKeyWords, reading_w = classNum(Text_lda, doc_vector_manip_factor, a_interaction["ID"],a_interaction["InteractionType"],a_interaction["Text"], doc_topic_array, last_class, doc_key_word, reading_time,splitby) #reading_weight)	
+        # print "\n", a_interaction["InteractionType"]
+        # print "class number: ", classNumtoShow
+        
+        
+        last_class = classNumtoShow	
+        int_duration = a_interaction["duration"]; 
+        # int_duration = seg_duration(Text_lda, doc_vector_manip_factor, all_interactions, a_interaction, counter, doc_topic_array, classNumtoShow, last_class, doc_key_word, reading_time, splitby)
+
     # --------------------------------------------------------------				
     # ------------------- Exploration Actions ----------------------				
     # --------------------------------------------------------------				
 
     # ------------------- Search (Filter) ----------------------			
-        if a_interaction["InteractionType"] == "Search":
-            temp = {"stepHeight": 7, "Time": int(a_interaction["time"]),"Duration": int_duration, "InteractionType" : "search", "ClassNum": classNumtoShow, "DocNum": "",  "tags": [a_interaction["Text"]]} 
+        if a_interaction["InteractionType"] == "search":
+            temp = {"Doc_open_weight": 0, "Time": a_interaction["time"],"Duration": int_duration, "InteractionType" : "search", "ClassNum": classNumtoShow, "DocNum": "",  "tags": [a_interaction["Text"]]} 
             ret.append(temp)
 
     # ------------------- Reading (Query) -------------------
-        if a_interaction["InteractionType"] == "Reading":
-           temp = {"stepHeight": , "Time": int(a_interaction["time"]),"Duration": int_duration, "InteractionType" : "read", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
-           ret.append(temp)
+        if a_interaction["InteractionType"] == "reading_document":
+            temp = {"Doc_open_weight": 0, "Time": (a_interaction["time"]),"Duration": int_duration, "InteractionType" : "reading_document", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
+            ret.append(temp)
            
     # ------------------- Opening (Inspect) -------------------						
-        if a_interaction["InteractionType"] == "Doc_open":
-            temp = {"stepHeight": float(5) * reading_w, "Time": int(a_interaction["time"]),"Duration": int_duration, "InteractionType" : "OpenDoc", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
+        if a_interaction["InteractionType"] == "open_document":
+            temp = {"Doc_open_weight": reading_w, "Time": (a_interaction["time"]),"Duration": int_duration, "InteractionType" : "open_document", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
             ret.append(temp)
-    
-    # ------------------- Sorting (Moving Document) ----------------------						
-       if a_interaction["InteractionType"] == "Draging":
-           temp = {"stepHeight": 1, "Time": int(a_interaction["time"]),"Duration": int_duration, "InteractionType" : "movingDoc", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
-           ret.append(temp)						
-           
+            
+    # ------------------- resotre_bookmark (restore data) -------------------						
+        if a_interaction["InteractionType"] == "resotre_bookmark":
+            temp = {"Doc_open_weight": reading_w, "Time": (a_interaction["time"]),"Duration": int_duration, "InteractionType" : "resotre_bookmark", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
+            ret.append(temp)
+            
     # ------------------- Moving Documents (Dragging) ----------------------						
-       if a_interaction["InteractionType"] == "Draging":
-           temp = {"stepHeight": 1, "Time": int(a_interaction["time"]),"Duration": int_duration, "InteractionType" : "movingDoc", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
-           ret.append(temp)						
-
+        if a_interaction["InteractionType"] == "moving_document":
+            temp = {"Doc_open_weight": 0, "Time": (a_interaction["time"]),"Duration": int_duration, "InteractionType" : "moving_document", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
+            ret.append(temp)						
+            sort_counter += 1;
+            sort_duration += int_duration
+            if sort_counter == 1:
+                sort_time = a_interaction["time"];
+            
+        if a_interaction["InteractionType"] != "moving_document":
+            sort_counter = 0;
+            sort_duration = 0;
+            
+    # -------------------  Sorting (Moving spatially) ----------------------						
+        if a_interaction["InteractionType"] == "moving_document" and sort_counter == 5:
+            temp = {"Doc_open_weight": 0, "Time": sort_time,"Duration": sort_duration, "InteractionType" : "sorting_documents", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
+            ret.append(temp)
+            sort_counter = 0
+            sort_duration = 0;
+            print "Docuemnts Sorting Interaction"
+            
     # ------------------- Brush (mouse over titles) ----------------------						
-       if a_interaction["InteractionType"] == "Mouse_hover":
-           temp = {"stepHeight": 1, "Time": int(a_interaction["time"]),"Duration": int_duration, "InteractionType" : "titleView", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
-           ret.append(temp)						
+        if a_interaction["InteractionType"] == "brush_document_title":
+            temp = {"Doc_open_weight": 0, "Time": (a_interaction["time"]),"Duration": int_duration, "InteractionType" : "brush_document_title", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
+            ret.append(temp)
+            # move_counter = 0           
     
     # --------------------------------------------------------------				
     # ------------------- Insight Actions ----------------------				
     # --------------------------------------------------------------				
 	
     # ------------------- Highlight ----------------------				
-        if a_interaction["InteractionType"] == "Highlight":
-            temp = {"stepHeight": 7 , "Time": int(a_interaction["time"]),"Duration": int_duration, "InteractionType" : "HighlightTxt", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": [a_interaction["Text"]]}
+        if a_interaction["InteractionType"] == "highlight":
+            temp = {"Doc_open_weight": 0, "Time": (a_interaction["time"]),"Duration": int_duration, "InteractionType" : "highlight", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": [a_interaction["Text"]]}
             ret.append(temp)
-
     # ------------------- Notes ---------------------						
-        if a_interaction["InteractionType"] == "CreateNote":
-            temp = {"stepHeight": 5, "Time": int(a_interaction["time"]),"Duration": int_duration, "InteractionType" : "createNote", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": docKeyWords}
-            ret.append(temp)			
-
+        if a_interaction["InteractionType"] == "create_note":
+            temp = {"Doc_open_weight": 0, "Time": (a_interaction["time"]),"Duration": int_duration, "InteractionType" : "create_note", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": [""]}
+            ret.append(temp)	
     # ------------------- Add Notes ----------------------						
-        if a_interaction["InteractionType"] == "Add note":
-            temp = {"stepHeight": 10, "Time": int(a_interaction["time"]),"Duration": int_duration, "InteractionType" : "addNote", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": a_interaction["Text"]}
-            ret.append(temp)		
-
+        if a_interaction["InteractionType"] == "writing_notes":
+            temp = {"Doc_open_weight": 0, "Time": (a_interaction["time"]),"Duration": int_duration, "InteractionType" : "writing_notes", "ClassNum": classNumtoShow, "DocNum": a_interaction["ID"],  "tags": a_interaction["Text"]}
+            ret.append(temp)
     # ------------------- Connection -------------------
-        if a_interaction["InteractionType"] == "Connection":
-            temp = {"stepHeight": 5, "Time": int(a_interaction["time"]),"Duration": int_duration, "InteractionType" : "newConnection", "ClassNum": classNumtoShow, "DocNum": a_interaction["Text"],  "tags": [a_interaction["Text"]]} 
-            ret.append(temp)			            
-
+        if a_interaction["InteractionType"] == "connection":
+            temp = {"Doc_open_weight": 0, "Time": (a_interaction["time"]),"Duration": int_duration, "InteractionType" : "connection", "ClassNum": classNumtoShow, "DocNum": a_interaction["Text"],  "tags": [a_interaction["Text"]]} 
+            ret.append(temp)	
     # ------------------- Bookmark (Scrunch_Highlighted_Texs) -------------------
-        if a_interaction["InteractionType"] == "Connection":
-            temp = {"stepHeight": 5, "Time": int(a_interaction["time"]),"Duration": int_duration, "InteractionType" : "newConnection", "ClassNum": classNumtoShow, "DocNum": a_interaction["Text"],  "tags": [a_interaction["Text"]]} 
-            ret.append(temp)			       
-
-        counter+=1
+        if a_interaction["InteractionType"] == "bookmark_highlights":
+            temp = {"Doc_open_weight": 0, "Time": (a_interaction["time"]),"Duration": int_duration, "InteractionType" : "bookmark_highlights", "ClassNum": classNumtoShow, "DocNum": a_interaction["Text"],  "tags": [a_interaction["Text"]]} 
+            ret.append(temp)
 	
     return ret
 	
-def save_threads(obj, filename):
+def save_outputs(obj, filename):
     fout = open(filename,"w")
     fout.write(json.dumps(obj,indent=1))
     fout.close()
     return 0
 
-def segmentation_vector(threads):
-
-    ret = []
-    
-    #for a_interaction in all_interactions:
-  
-
-    return ret
-
-# def main():
 	
 class_num = 1        # Number of topics in LDA 
-save_x = 1
-save_y = 1
+dateset_num = 1
+participant_number = 1
 keyword_num = 5       # Number of keyword assigned to each document 
-magic_number = 10     # How much reading time interaction should effect document vectors (was 40)
-magic_number_2 = 5   # How much Doc_open time intetaction should effect ProvThread steps  (was 40)
-new_model = 0         # 1 = Yes / 0 = No
-LDA_passes = 50 
+doc_vector_manip_factor = 10     # How much reading time interaction should effect document vectors 
+doc_vector_manip_factor_2 = 5   # How much Doc_open time intetaction should effect  document  
+new_model = 1        # 1 = Yes / 0 = No
+LDA_passes = 50
 EntList = 1; # Generate Entities list  
 
 saveContext()
 
 
-for class_num in xrange(3,11):   #(1,11):
+for class_num in xrange(3,10):   
 
-    for save_x in xrange(1,4):        #(1,4):
+    for dateset_num in xrange(1,4): 
         
         restoreContext()
         
-        if save_x == 1:
+        if dateset_num == 1:
             splitby = "g"
             dataset = "Arms"	
             name = "Armsdealing"		
-        if save_x == 2:
+        if dateset_num == 2:
             splitby = "y"
             dataset = "Terrorist"
             name = "TerroristActivity"				
-        if save_x == 3:
+        if dateset_num == 3:
             splitby = "ce"		
             dataset = "Disappearance"
             name = "Disappearance"				
 		
-        for save_y in xrange(1,9):  #(1,9):
-            print "\n \n Dataset number:", save_x , "P Nuumber: ", save_y, "Class_Num: ", class_num	
-            # Read docs and interaction files, process interactions and apply each doc
-            data_set_docs, docs_number = Read_dataset("D:/TopicModeling/documents_"+str(save_x)+".json")
-            all_interactions, highlight_plus,reading_time,search_terms,note_terms = Read_user_interactions("d:/datasets/NewIDs/Dataset_"+str(save_x)+"/UserInteractions/"+str(dataset)+"_P"+str(save_y)+"_InteractionsLogs.json",docs_number) 
-            document_plus, reading_weight = documents_interaction(magic_number, data_set_docs, highlight_plus,search_terms,note_terms,docs_number, reading_time)    
+        for participant_number in xrange(1,9):  
+            print "\n \n Dataset number:", dateset_num , "P Nuumber: ", participant_number, "Class_Num: ", class_num	
+                # -- Reading dataset documents
+            data_set_docs, docs_number = Read_dataset("D:/TextAnalysisTopicModeling/documents_"+str(dateset_num)+".json")
+                # -- Reading user interactions, calculate each document's readign time, search terms, highlights, etc. 
+            all_interactions, highlight_plus,reading_time,search_terms,note_terms = Read_user_interactions("D:/EventsToActions_Provenanace/provenance_datasets/Dataset_"+str(dateset_num)+"/UserInteractions/"+str(dataset)+"_P"+str(participant_number)+"_InteractionsLogs.json",docs_number) 
+                # -- Defining reading_weight for each docuemnt based on docuemtns reading time and doc_vector_manip_factor.
+            document_plus, reading_weight = documents_interaction(doc_vector_manip_factor, data_set_docs, highlight_plus,search_terms,note_terms,docs_number, reading_time)    
+                
+                # -- Run LDA, save results for each document
+            finalBag, topicWordTags,topicWordTags2,topicWordTags3,de_stemmer, ids2words_, doc_vectors_, Text_lda_, my_dictionary,Text_tfidf, output_topics_, de_stemmer_, doc_topics_ = LDA_Topic_Clustering(document_plus,reading_weight, new_model ,class_num , LDA_passes, dateset_num, participant_number)
 
-            # Run LDA, save results for each document
-            xx = save_x
-            yy = save_y  
-            finalBag, topicWordTags,topicWordTags2,topicWordTags3,de_stemmer, ids2words_, doc_vectors_, Text_lda_, my_dictionary,Text_tfidf, output_topics_, de_stemmer_, doc_topics_ = LDA_Topic_Clustering(document_plus,reading_weight, new_model ,class_num , LDA_passes,xx, yy)
-
-            # Extract and save document keywords
-            docTopicsFile = "D:/TopicModeling/TopicDocs/" +str(dataset) + "_P" + str(save_y) + "_ClassNum" + str(class_num) + ".json"
-            ldaTopicsFile = "D:/datasets/NewIDs/Dataset_" +str(save_x)+ "/LDATopics/" + str(dataset) + "_P" + str(save_y) + "_ClassNum" + str(class_num) + ".json"
-            entityListFile = "D:/datasets/NewIDs/Dataset_" +str(save_x)+ "/EntitiesList/" + str(dataset) + "_P" + str(save_y) + "_ClassNum" + str(class_num) + ".json"
-            doc_topic_array_, doc_key_word_ = save_topic_docs(0,my_dictionary, docs_number, ids2words_, doc_vectors_, output_topics_, doc_topics_,de_stemmer_, class_num,keyword_num, docTopicsFile, ldaTopicsFile, entityListFile)#"D:/TopicModeling/CompareTopics/" +str(dataset) + "_P" + str(save_y) + "_ClassNum" + str(class_num) + "_compare_" + str(magic_number) + ".json")
+                # -- Extract and save document keywords
+            docTopicsFile = "D:/TextAnalysisTopicModeling/TopicDocs/" +str(dataset) + "_P" + str(participant_number) + "_ClassNum" + str(class_num) + ".json"
+            ldaTopicsFile = "D:/EventsToActions_Provenanace/provenance_datasets/Dataset_" +str(dateset_num)+ "/LDATopics/" + str(dataset) + "_P" + str(participant_number) + "_ClassNum" + str(class_num) + ".json"
+            entityListFile = "D:/EventsToActions_Provenanace/provenance_datasets/Dataset_" +str(dateset_num)+ "/EntitiesList/" + str(dataset) + "_P" + str(participant_number) + "_ClassNum" + str(class_num) + ".json"
+            
+                # -- Save document topic mixture probability
+            doc_topic_array_, doc_key_word_ = save_topic_docs(0,my_dictionary, docs_number, ids2words_, doc_vectors_, output_topics_, doc_topics_,de_stemmer_, class_num,keyword_num, docTopicsFile, ldaTopicsFile, entityListFile)
  
-            # calculate, sort and save topic threads
-            threads = topic_threads(Text_lda_, magic_number_2, all_interactions, doc_topic_array_, doc_key_word_, docs_number, reading_time, splitby)  # , reading_weight
-            threads = sorted(threads, key=lambda k: k['Time'])
-            save_threads(threads, "d:/datasets/NewIDs/Dataset_" + str(save_x) + "/ProvThreads/" + str(dataset) +"_P" + str(save_y) + "_topicThread_"+ str(class_num)+ ".json" ) #Dataset_"+str(save_x)+"/UserInteractions/"+str(dataset)+"_P"+str(save_y)+"_InteractionsLogs.json") # "Disappearance_P6_topicThread.json")
-
-            # Extract and save document keywords
-            #docTopicsFile = "D:/TopicModeling/TopicDocs/" +str(dataset) + "_P" + str(save_y) + "_ClassNum" + str(class_num) + ".json"
-            # ldaTopicsFile = "D:/datasets/NewIDs/Dataset_" +str(save_x)+ "/LDATopics/" + str(dataset) + "_P" + str(save_y) + "_ClassNum" + str(class_num) + ".json"
-            # entityListFile = "D:/datasets/NewIDs/Dataset_" +str(save_x)+ "/EntitiesList/" + str(dataset) + "_P" + str(save_y) + "_ClassNum" + str(class_num) + ".json"
-            doc_topic_array_, doc_key_word_ = save_topic_docs(1,my_dictionary, docs_number, ids2words_, doc_vectors_, output_topics_, doc_topics_,de_stemmer_, class_num,keyword_num, docTopicsFile, ldaTopicsFile, entityListFile)#"D:/TopicModeling/CompareTopics/" +str(dataset) + "_P" + str(save_y) + "_ClassNum" + str(class_num) + "_compare_" + str(magic_number) + ".json")
+                # -- calculate time_topic_data_points and sort the list.
+            time_topic_data_points = time_topic_data(Text_lda_, doc_vector_manip_factor_2, all_interactions, doc_topic_array_, doc_key_word_, docs_number, reading_time, splitby)  # , reading_weight
+            time_topic_data_points = sorted(time_topic_data_points, key=lambda k: k['Time'])
+            
+                # -- Save document topic mixture probability
+            save_outputs(time_topic_data_points, "D:/EventsToActions_Provenanace/provenance_datasets/Dataset_" + str(dateset_num) + "/Topic_Events_Provenance/" + str(dataset) +"_P" + str(participant_number) + "_timetopics_"+ str(class_num)+ ".json")
+           
+                # -- Save topics word tag list
+            # doc_topic_array_, doc_key_word_ = save_topic_docs(1,my_dictionary, docs_number, ids2words_, doc_vectors_, output_topics_, doc_topics_,de_stemmer_, class_num,keyword_num, docTopicsFile, ldaTopicsFile, entityListFile)
             
             print "total time: ", datetime.now() - lastTime
             lastTime = datetime.now()

@@ -1,1124 +1,1946 @@
 [
  {
   "docName": "Armsdealing 1", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    3, 
+    0.4138550112834789
+   ], 
+   [
+    4, 
+    0.57265918434599117
+   ]
+  ], 
   "events": [
-   "tabriz", 
-   "address", 
+   "call", 
    "kiev", 
+   "receiver", 
    "iran", 
-   "unlisted"
+   "tabriz"
   ]
  }, 
  {
   "docName": "Armsdealing 2", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    4, 
+    0.56671047871143654
+   ], 
+   [
+    5, 
+    0.4143790917419502
+   ]
+  ], 
   "events": [
-   "tabnapkkackh", 
-   "tebilaead", 
-   "per", 
-   "belong", 
-   "haq"
-  ]
- }, 
- {
-  "docName": "Armsdealing 3", 
-  "classNum": 4, 
-  "events": [
-   "june", 
-   "english", 
-   "phone", 
-   "domodedovo", 
-   "virote"
-  ]
- }, 
- {
-  "docName": "Armsdealing 4", 
-  "classNum": 4, 
-  "events": [
-   "khouri", 
-   "kasam", 
-   "decide", 
-   "money", 
-   "tnot"
-  ]
- }, 
- {
-  "docName": "Armsdealing 5", 
-  "classNum": 3, 
-  "events": [
-   "caller", 
-   "shut", 
-   "think", 
-   "anything", 
-   "barcelona"
-  ]
- }, 
- {
-  "docName": "Armsdealing 6", 
-  "classNum": 3, 
-  "events": [
-   "caller", 
-   "something", 
-   "carabobo", 
-   "jhon", 
-   "pillo"
-  ]
- }, 
- {
-  "docName": "Armsdealing 7", 
-  "classNum": 3, 
-  "events": [
-   "caller", 
-   "carabobo", 
-   "venezuela", 
-   "ready", 
-   "warehouse"
-  ]
- }, 
- {
-  "docName": "Armsdealing 8", 
-  "classNum": 4, 
-  "events": [
-   "khouri", 
-   "kasem", 
-   "car", 
-   "tit", 
-   "tare"
-  ]
- }, 
- {
-  "docName": "Armsdealing 9", 
-  "classNum": 3, 
-  "events": [
-   "caller", 
-   "green", 
-   "money", 
-   "bolivar", 
-   "sending"
-  ]
- }, 
- {
-  "docName": "Armsdealing 10", 
-  "classNum": 3, 
-  "events": [
-   "brother", 
-   "textbooks", 
-   "school", 
-   "friend", 
-   "salesman"
-  ]
- }, 
- {
-  "docName": "Armsdealing 11", 
-  "classNum": 1, 
-  "events": [
-   "tabriz", 
-   "caller", 
-   "address", 
-   "receiver", 
-   "dubai"
-  ]
- }, 
- {
-  "docName": "Armsdealing 12", 
-  "classNum": 2, 
-  "events": [
-   "tebilaead", 
-   "per", 
-   "belong", 
-   "haq", 
-   "bukhari"
-  ]
- }, 
- {
-  "docName": "Armsdealing 13", 
-  "classNum": 4, 
-  "events": [
-   "identification", 
-   "transaction", 
-   "communication", 
-   "amount", 
-   "number"
-  ]
- }, 
- {
-  "docName": "Armsdealing 14", 
-  "classNum": 4, 
-  "events": [
-   "tmosweumm", 
-   "identification", 
-   "transaction", 
-   "communication", 
-   "amount"
-  ]
- }, 
- {
-  "docName": "Armsdealing 15", 
-  "classNum": 3, 
-  "events": [
-   "soon", 
-   "equipment", 
-   "purchase", 
-   "farming", 
-   "arrangements"
-  ]
- }, 
- {
-  "docName": "Armsdealing 16", 
-  "classNum": 3, 
-  "events": [
-   "money", 
-   "ready", 
-   "turkey", 
-   "thakan", 
-   "forget"
-  ]
- }, 
- {
-  "docName": "Armsdealing 17", 
-  "classNum": 3, 
-  "events": [
-   "list", 
-   "choices", 
-   "thow", 
-   "mobile", 
-   "money"
-  ]
- }, 
- {
-  "docName": "Armsdealing 18", 
-  "classNum": 1, 
-  "events": [
-   "notified", 
-   "gunter", 
-   "caller", 
-   "relationship", 
-   "chanarong"
-  ]
- }, 
- {
-  "docName": "Armsdealing 19", 
-  "classNum": 3, 
-  "events": [
-   "hakan", 
-   "money", 
-   "turkey", 
-   "tthe", 
-   "meantime"
-  ]
- }, 
- {
-  "docName": "Armsdealing 20", 
-  "classNum": 4, 
-  "events": [
-   "arabian", 
-   "monetary", 
-   "saudi", 
-   "agency", 
+   "date", 
+   "number", 
+   "intercept", 
+   "originating", 
    "identification"
   ]
  }, 
  {
-  "docName": "Armsdealing 21", 
-  "classNum": 4, 
+  "docName": "Armsdealing 3", 
+  "classNum": [
+   [
+    3, 
+    0.98130997513674489
+   ]
+  ], 
   "events": [
-   "basel", 
-   "mosweumm", 
-   "jordain", 
+   "phone", 
+   "june", 
+   "call", 
+   "intercept", 
+   "english"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 4", 
+  "classNum": [
+   [
+    2, 
+    0.99265511078338609
+   ]
+  ], 
+  "events": [
+   "khouri", 
+   "kasam", 
+   "money", 
+   "decide", 
+   "supplied"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 5", 
+  "classNum": [
+   [
+    3, 
+    0.32897529988804847
+   ], 
+   [
+    5, 
+    0.66524421309652282
+   ]
+  ], 
+  "events": [
+   "caller", 
+   "placed", 
+   "parts", 
+   "call", 
+   "phone"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 6", 
+  "classNum": [
+   [
+    3, 
+    0.46308262380397452
+   ], 
+   [
+    5, 
+    0.52661616864178928
+   ]
+  ], 
+  "events": [
+   "caller", 
+   "call", 
+   "cell", 
+   "phone", 
+   "placed"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 7", 
+  "classNum": [
+   [
+    3, 
+    0.52528029344904692
+   ], 
+   [
+    5, 
+    0.46014049568005838
+   ]
+  ], 
+  "events": [
+   "caller", 
+   "cell", 
+   "call", 
+   "phone", 
+   "placed"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 8", 
+  "classNum": [
+   [
+    2, 
+    0.99182684384416675
+   ]
+  ], 
+  "events": [
+   "khouri", 
+   "kasem", 
+   "meeting", 
+   "car", 
+   "arrangements"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 9", 
+  "classNum": [
+   [
+    2, 
+    0.62133947980822923
+   ], 
+   [
+    3, 
+    0.37279179050985034
+   ]
+  ], 
+  "events": [
+   "caller", 
+   "money", 
+   "green", 
+   "sending", 
+   "using"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 10", 
+  "classNum": [
+   [
+    3, 
+    0.98871622009163995
+   ]
+  ], 
+  "events": [
+   "brother", 
+   "call", 
+   "phone", 
+   "placed", 
+   "mobile"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 11", 
+  "classNum": [
+   [
+    3, 
+    0.37459452127364501
+   ], 
+   [
+    4, 
+    0.61371406214203306
+   ]
+  ], 
+  "events": [
+   "receiver", 
+   "caller", 
+   "call", 
+   "tabriz", 
+   "address"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 12", 
+  "classNum": [
+   [
+    4, 
+    0.57076329768955791
+   ], 
+   [
+    5, 
+    0.40948578595818846
+   ]
+  ], 
+  "events": [
+   "date", 
+   "number", 
+   "intercept", 
+   "originating", 
+   "identification"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 13", 
+  "classNum": [
+   [
+    1, 
+    0.014459325710018192
+   ], 
+   [
+    2, 
+    0.014403438719528611
+   ], 
+   [
+    3, 
+    0.014562122421301432
+   ], 
+   [
+    4, 
+    0.014645572947147818
+   ], 
+   [
+    5, 
+    0.94192954020200392
+   ]
+  ], 
+  "events": [
+   "date", 
+   "number", 
+   "intercept", 
+   "identification", 
+   "communication"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 14", 
+  "classNum": [
+   [
+    1, 
+    0.01296081198444342
+   ], 
+   [
+    2, 
+    0.012914844157336665
+   ], 
+   [
+    3, 
+    0.013045265419327033
+   ], 
+   [
+    4, 
+    0.013116138946066508
+   ], 
+   [
+    5, 
+    0.94796293949282628
+   ]
+  ], 
+  "events": [
+   "date", 
+   "number", 
+   "intercept", 
+   "identification", 
+   "communication"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 15", 
+  "classNum": [
+   [
+    3, 
+    0.99059598100697221
+   ]
+  ], 
+  "events": [
+   "soon", 
+   "equipment", 
+   "call", 
+   "arrangements", 
+   "phone"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 16", 
+  "classNum": [
+   [
+    3, 
+    0.84670191551803009
+   ], 
+   [
+    5, 
+    0.14322675314372849
+   ]
+  ], 
+  "events": [
+   "money", 
+   "call", 
+   "phone", 
+   "placed", 
+   "mobile"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 17", 
+  "classNum": [
+   [
+    3, 
+    0.98877384668697321
+   ]
+  ], 
+  "events": [
+   "phone", 
+   "placed", 
+   "arrangements", 
+   "money", 
+   "mobile"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 18", 
+  "classNum": [
+   [
+    3, 
+    0.9618143372630561
+   ]
+  ], 
+  "events": [
+   "intercept", 
+   "caller", 
+   "december", 
+   "telephone", 
+   "receiver"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 19", 
+  "classNum": [
+   [
+    3, 
+    0.98780179716552674
+   ]
+  ], 
+  "events": [
+   "money", 
+   "call", 
+   "phone", 
+   "placed", 
+   "mobile"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 20", 
+  "classNum": [
+   [
+    1, 
+    0.011893827314767031
+   ], 
+   [
+    2, 
+    0.011872038690086729
+   ], 
+   [
+    3, 
+    0.012682853430077211
+   ], 
+   [
+    4, 
+    0.012023693717760089
+   ], 
+   [
+    5, 
+    0.95152758684730898
+   ]
+  ], 
+  "events": [
+   "number", 
+   "intercept", 
+   "identification", 
+   "communication", 
+   "transfer"
+  ]
+ }, 
+ {
+  "docName": "Armsdealing 21", 
+  "classNum": [
+   [
+    1, 
+    0.011267112257516414
+   ], 
+   [
+    2, 
+    0.011281485382463746
+   ], 
+   [
+    3, 
+    0.39000696785040601
+   ], 
+   [
+    4, 
+    0.011531383630688015
+   ], 
+   [
+    5, 
+    0.57591305087892575
+   ]
+  ], 
+  "events": [
    "bank", 
-   "private"
+   "number", 
+   "intercept", 
+   "identification", 
+   "communication"
   ]
  }, 
  {
   "docName": "Armsdealing 22", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    3, 
+    0.97641696459015892
+   ]
+  ], 
   "events": [
+   "call", 
+   "phone", 
+   "placed", 
    "mobile", 
-   "registered", 
-   "aleppo", 
-   "professor", 
    "december"
   ]
  }, 
  {
   "docName": "Armsdealing 23", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    3, 
+    0.58434863651157631
+   ], 
+   [
+    5, 
+    0.40883606558504348
+   ]
+  ], 
   "events": [
    "tyes", 
-   "ninety", 
-   "type", 
-   "cases", 
-   "tractors"
+   "call", 
+   "placed", 
+   "twe", 
+   "many"
   ]
  }, 
  {
   "docName": "Armsdealing 24", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    3, 
+    0.99286936704444473
+   ]
+  ], 
   "events": [
    "speaker", 
    "required", 
-   "agreed", 
-   "paperwork", 
-   "health"
+   "phone", 
+   "intercept", 
+   "meeting"
   ]
  }, 
  {
   "docName": "Armsdealing 25", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    3, 
+    0.98882659374917325
+   ]
+  ], 
   "events": [
-   "travel", 
    "money", 
-   "baltasar", 
-   "pick", 
-   "turkey"
+   "travel", 
+   "phone", 
+   "placed", 
+   "mobile"
   ]
  }, 
  {
   "docName": "Armsdealing 26", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    3, 
+    0.97547297679497225
+   ]
+  ], 
   "events": [
    "dubai", 
-   "exhibition", 
-   "forward", 
-   "scheduled", 
-   "borodinski"
+   "intercept", 
+   "january", 
+   "april", 
+   "exhibition"
   ]
  }, 
  {
   "docName": "Armsdealing 27", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    3, 
+    0.98245585368570543
+   ]
+  ], 
   "events": [
    "brother", 
-   "families", 
-   "farming", 
-   "truly", 
+   "receiver", 
+   "call", 
+   "phone", 
    "caller"
   ]
  }, 
  {
   "docName": "Armsdealing 28", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.9931803324471058
+   ]
+  ], 
   "events": [
-   "anka", 
    "kasem", 
-   "tit", 
-   "fly", 
-   "tno"
+   "anka", 
+   "arrangements", 
+   "march", 
+   "gaza"
   ]
  }, 
  {
   "docName": "Armsdealing 29", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    3, 
+    0.98646044411064759
+   ]
+  ], 
   "events": [
+   "russian", 
+   "dubai", 
    "burj", 
    "hotel", 
-   "dubai", 
-   "luxury", 
-   "signal"
+   "telephone"
   ]
  }, 
  {
   "docName": "Armsdealing 30", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.24777267487020682
+   ], 
+   [
+    3, 
+    0.73633065246143969
+   ]
+  ], 
   "events": [
-   "difficulties", 
-   "expected", 
-   "kenya", 
+   "receiver", 
+   "caller", 
    "dubai", 
-   "jewels"
+   "difficulties", 
+   "expected"
   ]
  }, 
  {
   "docName": "Armsdealing 31", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    4, 
+    0.99229158095331682
+   ]
+  ], 
   "events": [
-   "lahore", 
    "ali", 
-   "blanks", 
+   "lahore", 
+   "apartment", 
    "involvement", 
    "jhangvi"
   ]
  }, 
  {
   "docName": "Armsdealing 32", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    2, 
+    0.41677283467304654
+   ], 
+   [
+    4, 
+    0.56876322087121478
+   ]
+  ], 
   "events": [
-   "uae", 
-   "flight", 
    "kiev", 
+   "airport", 
    "plan", 
-   "airport"
+   "uae", 
+   "cargo"
   ]
  }, 
  {
   "docName": "Armsdealing 33", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.82236965555526831
+   ], 
+   [
+    2, 
+    0.16997288721838419
+   ]
+  ], 
   "events": [
+   "arms", 
+   "ukraine", 
    "taken", 
    "ilyushin", 
-   "crew", 
-   "members", 
-   "arms"
+   "plane"
   ]
  }, 
  {
   "docName": "Armsdealing 34", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    2, 
+    0.4957856152651039
+   ], 
+   [
+    4, 
+    0.49413681689281097
+   ]
+  ], 
   "events": [
-   "bout", 
    "arms", 
-   "recipient", 
-   "ability", 
-   ">''"
+   "make", 
+   "bout", 
+   "telephone", 
+   "iran"
   ]
  }, 
  {
   "docName": "Armsdealing 35", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.96204786786899055
+   ]
+  ], 
   "events": [
    "june", 
-   "dsei", 
-   "began", 
-   "london", 
-   "attendees"
+   "arms", 
+   "equipment", 
+   "international", 
+   "boonmee"
   ]
  }, 
  {
   "docName": "Armsdealing 36", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    3, 
+    0.25024611550888198
+   ], 
+   [
+    4, 
+    0.73597001944934715
+   ]
+  ], 
   "events": [
+   "information", 
    "basra", 
-   "bakery", 
-   "jalil", 
-   "scooter", 
-   "coffeehouse"
+   "supplied", 
+   "criminal", 
+   "unit"
   ]
  }, 
  {
   "docName": "Armsdealing 37", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    3, 
+    0.98465701010781759
+   ]
+  ], 
   "events": [
    "khemkhaeng", 
+   "june", 
    "boonmee", 
    "chanarong", 
-   "lim", 
-   "june"
+   "lim"
   ]
  }, 
  {
   "docName": "Armsdealing 38", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    4, 
+    0.98719330498838531
+   ]
+  ], 
   "events": [
    "jhangvi", 
-   "blanks", 
-   "lahore", 
+   "provided", 
    "ali", 
-   "bhutto"
+   "blanks", 
+   "lahore"
   ]
  }, 
  {
   "docName": "Armsdealing 39", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    4, 
+    0.9937711788768816
+   ]
+  ], 
   "events": [
    "bhutani", 
    "men", 
-   "ullah", 
-   "mosque", 
-   "left"
+   "left", 
+   "build", 
+   "mosque"
   ]
  }, 
  {
   "docName": "Armsdealing 40", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.97814549284231833
+   ]
+  ], 
   "events": [
-   "kuryakin", 
-   "khemkhaengare", 
-   "nicolai", 
    "boonmee", 
-   "exhibition"
+   "nicolai", 
+   "arms", 
+   "kuryakin", 
+   "khemkhaengare"
   ]
  }, 
  {
   "docName": "Armsdealing 41", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.37947232875629899
+   ], 
+   [
+    2, 
+    0.2241949133755049
+   ], 
+   [
+    4, 
+    0.3886745381314643
+   ]
+  ], 
   "events": [
    "apartment", 
-   "subject", 
-   "august", 
    "caf", 
-   "mjf"
+   "surveillance", 
+   "august", 
+   "subject"
   ]
  }, 
  {
   "docName": "Armsdealing 42", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.98721326087658035
+   ]
+  ], 
   "events": [
    "military", 
-   "landing", 
+   "parts", 
+   "guns", 
    "kenya", 
-   "sleeping", 
-   "knives"
+   "landing"
   ]
  }, 
  {
   "docName": "Armsdealing 43", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    4, 
+    0.99567609728769646
+   ]
+  ], 
   "events": [
    "bukhari", 
-   "boxes", 
    "house", 
-   "delivery", 
-   "lyari"
+   "town", 
+   "boxes", 
+   "information"
   ]
  }, 
  {
   "docName": "Armsdealing 44", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    3, 
+    0.96713128897186773
+   ]
+  ], 
   "events": [
+   "shipped", 
    "tanya", 
    "based", 
-   "netherlands", 
-   "panamanian", 
-   "owned"
+   "ukraine", 
+   "sources"
   ]
  }, 
  {
   "docName": "Armsdealing 45", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.39225297322953484
+   ], 
+   [
+    3, 
+    0.37033319835418027
+   ], 
+   [
+    4, 
+    0.23230704751518613
+   ]
+  ], 
   "events": [
    "kasem", 
-   "foot", 
+   "using", 
+   "apartment", 
    "car", 
-   "aramaf", 
-   "shulaf"
+   "foot"
   ]
  }, 
  {
   "docName": "Armsdealing 46", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    2, 
+    0.97497497869565708
+   ]
+  ], 
   "events": [
-   "somalian", 
-   "somali", 
-   "approximately", 
-   "toward", 
-   "coast"
+   "call", 
+   "sources", 
+   "october", 
+   "still", 
+   "shipped"
   ]
  }, 
  {
   "docName": "Armsdealing 47", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.010063478139614012
+   ], 
+   [
+    2, 
+    0.010107318004899682
+   ], 
+   [
+    3, 
+    0.95956699254112299
+   ], 
+   [
+    4, 
+    0.010146364752068787
+   ], 
+   [
+    5, 
+    0.010115846562294376
+   ]
+  ], 
   "events": [
    "captain", 
-   "accident", 
-   "deck", 
-   "mate", 
-   "victim"
+   "october", 
+   "another", 
+   "shipped", 
+   "dead"
   ]
  }, 
  {
   "docName": "Armsdealing 48", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    1, 
+    0.62070779466754156
+   ], 
+   [
+    5, 
+    0.37013006966698792
+   ]
+  ], 
   "events": [
+   "military", 
    "tanya", 
-   "hobyo", 
-   "dia", 
-   "fifth", 
-   "advanced"
+   "supplied", 
+   "ukraine", 
+   "information"
   ]
  }, 
  {
   "docName": "Armsdealing 49", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    4, 
+    0.9956055499506079
+   ]
+  ], 
   "events": [
    "bukhari", 
    "basra", 
-   "bmw", 
    "left", 
+   "meeting", 
    "room"
   ]
  }, 
  {
   "docName": "Armsdealing 50", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.97808382338921318
+   ]
+  ], 
   "events": [
    "sviatoslavich", 
-   "residence", 
    "kiev", 
-   "style", 
-   "massacre"
+   "residence", 
+   "reporting", 
+   "ukraine"
   ]
  }, 
  {
   "docName": "Armsdealing 51", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    1, 
+    0.7948365975219509
+   ], 
+   [
+    3, 
+    0.18726070396675729
+   ]
+  ], 
   "events": [
    "giunter", 
-   "legitimate", 
-   "precious", 
-   "carats", 
-   "stones"
+   "money", 
+   "business", 
+   "sources", 
+   "additional"
   ]
  }, 
  {
   "docName": "Armsdealing 52", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    4, 
+    0.99063464727897144
+   ]
+  ], 
   "events": [
-   "basra", 
    "karachi", 
-   "door", 
+   "basra", 
+   "information", 
    "dubai", 
-   "taxi"
+   "provided"
   ]
  }, 
  {
   "docName": "Armsdealing 53", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    4, 
+    0.98660293100334062
+   ]
+  ], 
   "events": [
-   "medical", 
-   "kashfi", 
-   "rana", 
+   "police", 
+   "karachi", 
+   "apartment", 
    "men", 
-   "ruby"
+   "rana"
   ]
  }, 
  {
   "docName": "Armsdealing 54", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    4, 
+    0.99427000777108232
+   ]
+  ], 
   "events": [
+   "april", 
+   "pakistani", 
    "tlhe", 
    "card", 
-   "identity", 
-   "tdxb", 
-   "dxb"
+   "national"
   ]
  }, 
  {
   "docName": "Armsdealing 55", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    4, 
+    0.99201283228038872
+   ]
+  ], 
   "events": [
    "bukhari", 
    "basra", 
-   "drove", 
-   "minutes", 
-   "follow"
+   "pakistani", 
+   "karachi", 
+   "information"
   ]
  }, 
  {
   "docName": "Armsdealing 56", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.55600298343791055
+   ], 
+   [
+    3, 
+    0.25222213947326427
+   ], 
+   [
+    4, 
+    0.17314986329989149
+   ]
+  ], 
   "events": [
-   "death", 
    "may", 
-   "subject", 
-   "hospital", 
-   "survive"
+   "surveillance", 
+   "death", 
+   "date", 
+   "provided"
   ]
  }, 
  {
   "docName": "Armsdealing 57", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.99523915289087628
+   ]
+  ], 
   "events": [
    "kasem", 
-   "mfj", 
-   "cigarette", 
    "hard", 
-   "watching"
+   "people", 
+   "supplied", 
+   "west"
   ]
  }, 
  {
   "docName": "Armsdealing 58", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    4, 
+    0.99634748369653237
+   ]
+  ], 
   "events": [
    "terrorist", 
-   "park", 
    "belong", 
+   "plan", 
    "cid", 
-   "gathering"
+   "park"
   ]
  }, 
  {
   "docName": "Armsdealing 59", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.50895293799840013
+   ], 
+   [
+    5, 
+    0.48197687617538554
+   ]
+  ], 
   "events": [
-   "spokesman", 
-   "tons", 
+   "weapons", 
    "thai", 
-   "aircraft", 
-   "weapons"
+   "spokesman", 
+   "authority", 
+   "bangkok"
   ]
  }, 
  {
   "docName": "Armsdealing 60", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.99265702174260184
+   ]
+  ], 
   "events": [
    "bangkok", 
-   "staff", 
    "plane", 
-   "thai", 
-   "destination"
+   "hotel", 
+   "arms", 
+   "weapons"
   ]
  }, 
  {
   "docName": "Armsdealing 61", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    2, 
+    0.19669124343068542
+   ], 
+   [
+    5, 
+    0.79532890740805173
+   ]
+  ], 
   "events": [
    "flight", 
-   "navigator", 
+   "equipment", 
+   "kiev", 
    "drilling", 
-   "plotnitskaia", 
-   "open"
+   "delivered"
   ]
  }, 
  {
   "docName": "Armsdealing 62", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.9951763524908005
+   ]
+  ], 
   "events": [
-   "raleigh", 
-   "yemeni", 
    "company", 
-   "thursday", 
+   "raleigh", 
+   "arms", 
+   "yemeni", 
    "equipment"
   ]
  }, 
  {
   "docName": "Armsdealing 63", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    5, 
+    0.99645197657552675
+   ]
+  ], 
   "events": [
    "guns", 
+   "arms", 
+   "parts", 
    "year", 
-   "ago", 
-   "safety", 
-   "amant"
+   "weapons"
   ]
  }, 
  {
   "docName": "Armsdealing 64", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.99139102516169264
+   ]
+  ], 
   "events": [
-   "korea", 
    "weapons", 
-   "prosecutors", 
    "plane", 
-   "north"
+   "north", 
+   "korea", 
+   "sources"
   ]
  }, 
  {
   "docName": "Armsdealing 65", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.99809748797863285
+   ]
+  ], 
   "events": [
    "minsky", 
-   "italian", 
-   "room", 
+   "police", 
    "found", 
-   "diamonds"
+   "italian", 
+   "international"
   ]
  }, 
  {
   "docName": "Armsdealing 66", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.99575202002490748
+   ]
+  ], 
   "events": [
    "arms", 
+   "forces", 
+   "securing", 
    "adoyo", 
-   "storm", 
-   "battles", 
-   "forces"
+   "police"
   ]
  }, 
  {
   "docName": "Armsdealing 67", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    1, 
+    0.98917649837795618
+   ]
+  ], 
   "events": [
+   "police", 
    "nairobi", 
-   "senior", 
-   "otieno", 
-   "questioning", 
-   "connection"
+   "connection", 
+   "arms", 
+   "office"
   ]
  }, 
  {
   "docName": "Armsdealing 68", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    1, 
+    0.99449933701340132
+   ]
+  ], 
   "events": [
+   "arms", 
    "court", 
    "convicted", 
-   "defendants", 
-   "ruled", 
-   "sentence"
+   "date", 
+   "international"
   ]
  }, 
  {
   "docName": "Armsdealing 69", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.81176090114883159
+   ], 
+   [
+    5, 
+    0.18065392711333114
+   ]
+  ], 
   "events": [
    "minsky", 
-   "discovered", 
-   "italy", 
-   "diamonds", 
-   "repubblica"
+   "police", 
+   "guns", 
+   "arms", 
+   "discovered"
   ]
  }, 
  {
   "docName": "Armsdealing 70", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    1, 
+    0.98696414653026387
+   ]
+  ], 
   "events": [
-   "born", 
-   "usa", 
-   "nahid", 
+   "may", 
+   "nairobi", 
    "thabiti", 
-   "narok"
+   "narok", 
+   "otieno"
   ]
  }, 
  {
   "docName": "Armsdealing 71", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.9930499358460263
+   ]
+  ], 
   "events": [
-   "imposed", 
-   "korea", 
+   "weapons", 
    "rockets", 
-   "sales", 
-   "thailand"
+   "north", 
+   "korea", 
+   "parts"
   ]
  }, 
  {
   "docName": "Armsdealing 72", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.99758008171879253
+   ]
+  ], 
   "events": [
    "minsky", 
-   "italian", 
-   "room", 
+   "police", 
    "found", 
-   "organization"
+   "arms", 
+   "italian"
   ]
  }, 
  {
   "docName": "Armsdealing 73", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    5, 
+    0.99482288368148353
+   ]
+  ], 
   "events": [
-   "conflict", 
-   "camps", 
    "yemen", 
+   "saudi", 
    "fighting", 
-   "shiite"
+   "conflict", 
+   "camps"
   ]
  }, 
  {
   "docName": "Armsdealing 74", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    1, 
+    0.99321859753726449
+   ]
+  ], 
   "events": [
-   "omondi", 
-   "issued", 
-   "armoury", 
+   "arms", 
+   "police", 
+   "want", 
    "narok", 
    "otieno"
   ]
  }, 
  {
   "docName": "Armsdealing 75", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    1, 
+    0.99476867820480142
+   ]
+  ], 
   "events": [
-   "gone", 
-   "armoury", 
    "securing", 
-   "sour", 
-   "standard"
+   "arms", 
+   "forces", 
+   "unit", 
+   "deal"
   ]
  }, 
  {
   "docName": "Armsdealing 76", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    2, 
+    0.99411243233134117
+   ]
+  ], 
   "events": [
-   "trading", 
    "yemen", 
-   "death", 
-   "kalid", 
-   "ownership"
+   "guns", 
+   "arms", 
+   "weapons", 
+   "death"
   ]
  }, 
  {
   "docName": "Armsdealing 77", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    2, 
+    0.99467075787563242
+   ]
+  ], 
   "events": [
    "exhibition", 
-   "rosoboronexport", 
-   "air", 
-   "novoski", 
-   "asia"
+   "arms", 
+   "russian", 
+   "showing", 
+   "including"
   ]
  }, 
  {
   "docName": "Armsdealing 78", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.14284142564062868
+   ], 
+   [
+    2, 
+    0.69091772675485286
+   ], 
+   [
+    4, 
+    0.15990297664144701
+   ]
+  ], 
   "events": [
    "bangkok", 
    "airport", 
    "plane", 
-   "feb", 
-   "crew"
+   "days", 
+   "feb"
   ]
  }, 
  {
   "docName": "Armsdealing 79", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.99584463638976184
+   ]
+  ], 
   "events": [
-   "kapolalum", 
-   "funsho", 
-   "engr", 
+   "transaction", 
    "operation", 
+   "contract", 
+   "foreigners", 
    "assistant"
   ]
  }, 
  {
   "docName": "Armsdealing 80", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    3, 
+    0.99287292690489415
+   ]
+  ], 
   "events": [
-   "tool", 
-   "investment", 
-   "honor", 
-   "worker", 
-   "sure"
+   "supplied", 
+   "september", 
+   "sure", 
+   "many", 
+   "honor"
   ]
  }, 
  {
   "docName": "Armsdealing 81", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.8731519529003039
+   ], 
+   [
+    3, 
+    0.12347858462907943
+   ]
+  ], 
   "events": [
    "contract", 
-   "nigeria", 
-   "share", 
    "funds", 
-   "money"
+   "money", 
+   "nigeria", 
+   "much"
   ]
  }, 
  {
   "docName": "Armsdealing 82", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.013448786948484514
+   ], 
+   [
+    2, 
+    0.94572734653662527
+   ], 
+   [
+    3, 
+    0.013829684006988443
+   ], 
+   [
+    4, 
+    0.01349235420602574
+   ], 
+   [
+    5, 
+    0.013501828301875867
+   ]
+  ], 
   "events": [
    "parts", 
    "jtomski", 
-   "jhon", 
-   "thank", 
-   "boarded"
+   "intercept", 
+   "information", 
+   "october"
   ]
  }, 
  {
   "docName": "Armsdealing 83", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    2, 
+    0.60361972650553231
+   ], 
+   [
+    3, 
+    0.37413928263650109
+   ]
+  ], 
   "events": [
    "parts", 
-   "jtomski", 
    "sending", 
-   "condition", 
-   "many"
+   "many", 
+   "jtomski", 
+   "using"
   ]
  }, 
  {
   "docName": "Armsdealing 84", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.99578646351110767
+   ]
+  ], 
   "events": [
    "contract", 
-   "stand", 
-   "ptf", 
+   "information", 
    "company", 
-   "ngoki"
+   "stand", 
+   "transfer"
   ]
  }, 
  {
   "docName": "Armsdealing 85", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.99512241654719324
+   ]
+  ], 
   "events": [
    "contract", 
-   "ptf", 
+   "funds", 
    "approved", 
-   "port", 
-   "warri"
+   "invoice", 
+   "port"
   ]
  }, 
  {
   "docName": "Armsdealing 86", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.96687558691403463
+   ]
+  ], 
   "events": [
    "parts", 
    "volkswagons", 
-   "exhaust", 
-   "ignition", 
-   "broken"
+   "soon", 
+   "october", 
+   "december"
   ]
  }, 
  {
   "docName": "Armsdealing 87", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.01185492284774455
+   ], 
+   [
+    2, 
+    0.95216121255199226
+   ], 
+   [
+    3, 
+    0.012180858838813343
+   ], 
+   [
+    4, 
+    0.01182760988465735
+   ], 
+   [
+    5, 
+    0.011975395876792458
+   ]
+  ], 
   "events": [
-   "car", 
-   "pontiac", 
-   "classic", 
    "parts", 
-   "vwhombre"
+   "car", 
+   "intercept", 
+   "soon", 
+   "next"
   ]
  }, 
  {
   "docName": "Armsdealing 88", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    2, 
+    0.96392344636052096
+   ]
+  ], 
   "events": [
    "parts", 
-   "write", 
-   "different", 
-   "kinds", 
-   "dose"
+   "intercept", 
+   "october", 
+   "january", 
+   "help"
   ]
  }, 
  {
   "docName": "Armsdealing 89", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    2, 
+    0.58239126687026543
+   ], 
+   [
+    3, 
+    0.39592010190498178
+   ]
+  ], 
   "events": [
    "parts", 
-   "exchange", 
-   "boarded", 
+   "information", 
    "sending", 
-   "pontiac"
+   "boarded", 
+   "exchange"
   ]
  }, 
  {
   "docName": "Armsdealing 90", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    2, 
+    0.22976598373269977
+   ], 
+   [
+    3, 
+    0.74256772175760755
+   ]
+  ], 
   "events": [
+   "meeting", 
    "sails", 
    "jtomski", 
-   "meeting", 
-   "jhon", 
-   "payment"
+   "intercept", 
+   "arrangements"
   ]
  }, 
  {
   "docName": "Armsdealing 91", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.020069663690266495
+   ], 
+   [
+    2, 
+    0.69630300929945321
+   ], 
+   [
+    3, 
+    0.24289425828770983
+   ], 
+   [
+    4, 
+    0.020574069671729346
+   ], 
+   [
+    5, 
+    0.020158999050841075
+   ]
+  ], 
   "events": [
    "jtomski", 
-   "jhon", 
-   "boarded", 
-   "november", 
+   "intercept", 
+   "information", 
+   "meeting", 
    "january"
   ]
  }, 
  {
   "docName": "Armsdealing 92", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.013389631636701592
+   ], 
+   [
+    2, 
+    0.0134176429355908
+   ], 
+   [
+    3, 
+    0.94603191116466734
+   ], 
+   [
+    4, 
+    0.013713303353439404
+   ], 
+   [
+    5, 
+    0.013447510909600733
+   ]
+  ], 
   "events": [
    "april", 
-   "emerites", 
-   "savvytraveladvice", 
-   "forum", 
-   "plan"
+   "intercept", 
+   "unit", 
+   "meeting", 
+   "january"
   ]
  }, 
  {
   "docName": "Armsdealing 93", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.017738281670729949
+   ], 
+   [
+    2, 
+    0.017861321158486661
+   ], 
+   [
+    3, 
+    0.92772241970791625
+   ], 
+   [
+    4, 
+    0.018910005387673404
+   ], 
+   [
+    5, 
+    0.017767972075193754
+   ]
+  ], 
   "events": [
-   "savvytraveladvice", 
-   "forum", 
-   "jhon", 
-   "wednesday", 
-   "travel"
+   "intercept", 
+   "february", 
+   "information", 
+   "meeting", 
+   "december"
   ]
  }, 
  {
   "docName": "Armsdealing 94", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.011506201702955481
+   ], 
+   [
+    2, 
+    0.23452136989188666
+   ], 
+   [
+    3, 
+    0.73096630542548469
+   ], 
+   [
+    4, 
+    0.011575750189508733
+   ], 
+   [
+    5, 
+    0.01143037279016435
+   ]
+  ], 
   "events": [
-   "emerites", 
-   "afternoon", 
-   "savvytraveladvice", 
-   "forum", 
-   "vwhombre"
+   "meeting", 
+   "intercept", 
+   "february", 
+   "next", 
+   "january"
   ]
  }, 
  {
   "docName": "Armsdealing 95", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    3, 
+    0.9923148245446074
+   ]
+  ], 
   "events": [
+   "business", 
+   "february", 
+   "meeting", 
    "mutual", 
-   "health", 
-   "mikhail", 
-   "issued", 
-   "success"
+   "health"
   ]
  }, 
  {
   "docName": "Armsdealing 96", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    5, 
+    0.99634900482770716
+   ]
+  ], 
   "events": [
-   "saudi", 
    "arms", 
+   "saudi", 
    "firearms", 
-   "riyal", 
+   "many", 
    "fine"
   ]
  }, 
  {
   "docName": "Armsdealing 97", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.99313484478637915
+   ]
+  ], 
   "events": [
-   "gashi", 
    "operation", 
-   "sldf", 
-   "harassment", 
-   "regional"
+   "police", 
+   "gashi", 
+   "also", 
+   "forces"
   ]
  }, 
  {
   "docName": "Armsdealing 98", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    5, 
+    0.99607722806367072
+   ]
+  ], 
   "events": [
-   "training", 
+   "arms", 
    "kenya", 
-   "chief", 
-   "commandant", 
-   "armours"
+   "office", 
+   "operation", 
+   "police"
   ]
  }, 
  {
   "docName": "Armsdealing 99", 
-  "classNum": 5, 
+  "classNum": [
+   [
+    1, 
+    0.42575730434744852
+   ], 
+   [
+    3, 
+    0.17368248000325556
+   ], 
+   [
+    5, 
+    0.3916544465381992
+   ]
+  ], 
   "events": [
+   "using", 
    "fear", 
+   "ammunition", 
    "range", 
-   "shooting", 
-   "remainder", 
-   "retribution"
+   "date"
   ]
  }, 
  {
   "docName": "Armsdealing 100", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    5, 
+    0.99057585965615813
+   ]
+  ], 
   "events": [
    "guns", 
-   "lived", 
-   "respects", 
    "ammunition", 
-   "possession"
+   "lived", 
+   "investigation", 
+   "october"
   ]
  }, 
  {
   "docName": "Armsdealing 101", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    5, 
+    0.99129997590633945
+   ]
+  ], 
   "events": [
-   "pirates", 
+   "arms", 
    "tanya", 
+   "pirates", 
    "destination", 
-   "ransom", 
-   "owner"
+   "shipped"
   ]
  }, 
  {
   "docName": "Armsdealing 102", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    5, 
+    0.99445545056673645
+   ]
+  ], 
   "events": [
    "sudan", 
-   "research", 
-   "survey", 
    "guns", 
-   "southern"
+   "kenya", 
+   "shipment", 
+   "rockets"
   ]
  }
 ]

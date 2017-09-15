@@ -1,1492 +1,2640 @@
 [
  {
   "docName": "Disappearance 1", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.98722023770013023
+   ]
+  ], 
   "events": [
-   "george", 
+   "kronos", 
+   "gastech", 
    "tomorrow", 
-   "phase", 
-   "downward", 
-   "oblige"
+   "george", 
+   "blog"
   ]
  }, 
  {
   "docName": "Disappearance 2", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.9876028883879453
+   ]
+  ], 
   "events": [
-   "pictures", 
-   "succeeded", 
+   "gastech", 
+   "president", 
    "celebrating", 
-   "happened", 
-   "understood"
+   "kapelou", 
+   "happened"
   ]
  }, 
  {
   "docName": "Disappearance 3", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    2, 
+    0.98741846600286565
+   ]
+  ], 
   "events": [
-   "opening", 
-   "cut", 
-   "tape", 
-   "size", 
-   "avila"
+   "gastech", 
+   "kronos", 
+   "sanjorge", 
+   "president", 
+   "opening"
   ]
  }, 
  {
   "docName": "Disappearance 4", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    2, 
+    0.99850812574800984
+   ]
+  ], 
   "events": [
+   "kronos", 
+   "gastech", 
    "kidnapped", 
-   "feared", 
-   "want", 
-   "others", 
-   "fourteen"
+   "employees", 
+   "offices"
   ]
  }, 
  {
   "docName": "Disappearance 5", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.98201600463391125
+   ]
+  ], 
   "events": [
-   "flavor", 
-   "ploy", 
-   "confrontation", 
-   "gone", 
-   "away"
+   "people", 
+   "building", 
+   "fire", 
+   "gastech", 
+   "blog"
   ]
  }, 
  {
   "docName": "Disappearance 6", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.70216995415457617
+   ], 
+   [
+    2, 
+    0.27092274293122492
+   ], 
+   [
+    3, 
+    0.013707389140635108
+   ], 
+   [
+    4, 
+    0.013199913773563691
+   ]
+  ], 
   "events": [
    "construction", 
-   "roof", 
-   "helicopter", 
+   "gastech", 
    "modernizations", 
-   "sheets"
+   "january", 
+   "news"
   ]
  }, 
  {
   "docName": "Disappearance 7", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.99392027620744861
+   ]
+  ], 
   "events": [
-   "whether", 
+   "gastech", 
+   "kronos", 
+   "abila", 
    "kidnapped", 
-   "speculation", 
-   "missing", 
-   "department"
+   "event"
   ]
  }, 
  {
   "docName": "Disappearance 8", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.016248551115544595
+   ], 
+   [
+    2, 
+    0.95348988013604574
+   ], 
+   [
+    3, 
+    0.01509264806867678
+   ], 
+   [
+    4, 
+    0.015168920679732837
+   ]
+  ], 
   "events": [
-   "evacuating", 
-   "due", 
-   "speculation", 
-   "bomb", 
-   "threat"
+   "blog", 
+   "important", 
+   "people", 
+   "voices", 
+   "january"
   ]
  }, 
  {
   "docName": "Disappearance 9", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.73316221731313003
+   ], 
+   [
+    2, 
+    0.25141466690786185
+   ]
+  ], 
   "events": [
+   "gastech", 
+   "construction", 
+   "modernizations", 
    "accardi", 
-   "captain", 
-   "rendered", 
-   "false", 
-   "federigo"
+   "captain"
   ]
  }, 
  {
   "docName": "Disappearance 10", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.011945680950256832
+   ], 
+   [
+    2, 
+    0.96403956101428445
+   ], 
+   [
+    3, 
+    0.012061272403468834
+   ], 
+   [
+    4, 
+    0.011953485631989683
+   ]
+  ], 
   "events": [
    "appear", 
+   "gastech", 
    "speaks", 
-   "correspondent", 
-   "gerhard", 
-   "jan"
+   "blog", 
+   "important"
   ]
  }, 
  {
   "docName": "Disappearance 11", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.014926916206164362
+   ], 
+   [
+    2, 
+    0.95503130745794962
+   ], 
+   [
+    3, 
+    0.01503585730211811
+   ], 
+   [
+    4, 
+    0.015005919033767967
+   ]
+  ], 
   "events": [
-   "restlessness", 
-   "provoked", 
    "modernizations", 
-   "confusing", 
-   "adding"
+   "scene", 
+   "gastech", 
+   "blog", 
+   "abila"
   ]
  }, 
  {
   "docName": "Disappearance 12", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.3343256642700142
+   ], 
+   [
+    2, 
+    0.66005195517933335
+   ]
+  ], 
   "events": [
+   "gastech", 
    "away", 
    "explosion", 
-   "rebecca", 
    "cato", 
-   "home"
+   "abila"
   ]
  }, 
  {
   "docName": "Disappearance 13", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.011968089037676996
+   ], 
+   [
+    2, 
+    0.96409561414898715
+   ], 
+   [
+    3, 
+    0.011965868479668684
+   ], 
+   [
+    4, 
+    0.011970428333667142
+   ]
+  ], 
   "events": [
-   "outlets", 
-   "media", 
-   "number", 
-   "missing", 
-   "jan"
+   "gastech", 
+   "blog", 
+   "important", 
+   "people", 
+   "voices"
   ]
  }, 
  {
   "docName": "Disappearance 14", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.61481938036315276
+   ], 
+   [
+    3, 
+    0.36911638225647447
+   ]
+  ], 
   "events": [
    "hatches", 
-   "short", 
-   "glimpse", 
-   "entrargli", 
-   "sedan"
+   "gastech", 
+   "blog", 
+   "approximately", 
+   "sentinel"
   ]
  }, 
  {
   "docName": "Disappearance 15", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.99703643549831089
+   ]
+  ], 
   "events": [
    "death", 
    "karel", 
-   "cries", 
-   "remember", 
+   "kronos", 
+   "year", 
    "elian"
   ]
  }, 
  {
   "docName": "Disappearance 16", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.010749254647048762
+   ], 
+   [
+    2, 
+    0.69917272998269642
+   ], 
+   [
+    3, 
+    0.010579701771485218
+   ], 
+   [
+    4, 
+    0.27949831359876953
+   ]
+  ], 
   "events": [
-   "tinted", 
-   "unmarked", 
    "arrived", 
-   "cordon", 
-   "apparent"
+   "scene", 
+   "haneson", 
+   "gastech", 
+   "blog"
   ]
  }, 
  {
   "docName": "Disappearance 17", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.97699979572563456
+   ]
+  ], 
   "events": [
-   "airport", 
-   "jet", 
+   "released", 
    "illumination", 
    "homeland", 
-   "released"
+   "jet", 
+   "airport"
   ]
  }, 
  {
   "docName": "Disappearance 18", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.013324755697732765
+   ], 
+   [
+    2, 
+    0.95957065551015763
+   ], 
+   [
+    3, 
+    0.013633208162215809
+   ], 
+   [
+    4, 
+    0.013471380629893804
+   ]
+  ], 
   "events": [
-   "raising", 
-   "confusing", 
-   "adding", 
-   "happened", 
-   "haneson"
+   "abila", 
+   "scene", 
+   "haneson", 
+   "gastech", 
+   "blog"
   ]
  }, 
  {
   "docName": "Disappearance 19", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    4, 
+    0.98103838542407062
+   ]
+  ], 
   "events": [
+   "abila", 
+   "today", 
    "plane", 
-   "second", 
-   "airport", 
-   "jet", 
+   "confirmed", 
    "private"
   ]
  }, 
  {
   "docName": "Disappearance 20", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.98268236112562124
+   ]
+  ], 
   "events": [
-   "room", 
-   "unknown", 
-   "weren", 
-   "background", 
-   "shadowy"
+   "gastech", 
+   "meet", 
+   "people", 
+   "employees", 
+   "room"
   ]
  }, 
  {
   "docName": "Disappearance 21", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    3, 
+    0.99100840978201665
+   ]
+  ], 
   "events": [
    "nespola", 
-   "oil", 
-   "qualified", 
-   "program", 
+   "abila", 
+   "ministers", 
+   "gas", 
    "taxes"
   ]
  }, 
  {
   "docName": "Disappearance 22", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    4, 
+    0.98975410759124427
+   ]
+  ], 
   "events": [
    "drug", 
    "related", 
-   "haltings", 
    "increased", 
-   "violent"
+   "haltings", 
+   "abila"
   ]
  }, 
  {
   "docName": "Disappearance 23", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.25840980170933325
+   ], 
+   [
+    2, 
+    0.71824386434172671
+   ], 
+   [
+    3, 
+    0.011726655161250493
+   ], 
+   [
+    4, 
+    0.011619678787689512
+   ]
+  ], 
   "events": [
-   "coordinator", 
+   "gastech", 
    "modernizations", 
-   "suppliers", 
-   "reunion", 
-   "present"
+   "morning", 
+   "present", 
+   "construction"
   ]
  }, 
  {
   "docName": "Disappearance 24", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.99338916842301783
+   ]
+  ], 
   "events": [
-   "mob", 
+   "force", 
    "protestors", 
-   "different", 
-   "collection", 
-   "bldg"
+   "mob", 
+   "pok", 
+   "police"
   ]
  }, 
  {
   "docName": "Disappearance 25", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.98620275984590533
+   ]
+  ], 
   "events": [
-   "district", 
+   "abila", 
+   "kronos", 
+   "pok", 
    "siopa", 
-   "vandalize", 
-   "note", 
-   "opportunistic"
+   "district"
   ]
  }, 
  {
   "docName": "Disappearance 26", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.97192952719352499
+   ]
+  ], 
   "events": [
+   "police", 
    "employs", 
-   "modified", 
-   "unknown", 
-   "sig", 
-   "minuteren"
+   "gastech", 
+   "blog", 
+   "abila"
   ]
  }, 
  {
   "docName": "Disappearance 27", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.97394415133607937
+   ]
+  ], 
   "events": [
-   "locate", 
-   "newfound", 
-   "wealth", 
-   "perhaps", 
-   "caterers"
+   "gastech", 
+   "blog", 
+   "important", 
+   "people", 
+   "voices"
   ]
  }, 
  {
   "docName": "Disappearance 28", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.98138872212313488
+   ]
+  ], 
   "events": [
+   "gastech", 
+   "president", 
+   "sanjorge", 
    "million", 
-   "billionaire", 
-   "vested", 
-   "newly", 
-   "earned"
+   "sten"
   ]
  }, 
  {
   "docName": "Disappearance 29", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.26494291591994429
+   ], 
+   [
+    2, 
+    0.065514518569567845
+   ], 
+   [
+    3, 
+    0.66835485438843967
+   ]
+  ], 
   "events": [
    "protesters", 
-   "disorder", 
+   "kronos", 
    "concerns", 
-   "squat", 
-   "simmered"
+   "gastech", 
+   "important"
   ]
  }, 
  {
   "docName": "Disappearance 30", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.58659269070362907
+   ], 
+   [
+    4, 
+    0.39470689668810754
+   ]
+  ], 
   "events": [
-   "destination", 
+   "abila", 
+   "confirmed", 
    "plane", 
-   "sixteen", 
-   "italy", 
-   "rome"
+   "destination", 
+   "scene"
   ]
  }, 
  {
   "docName": "Disappearance 31", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.97624807428611404
+   ]
+  ], 
   "events": [
-   "afd", 
-   "heard", 
-   "anything", 
-   "happened", 
-   "alarm"
+   "scene", 
+   "haneson", 
+   "gastech", 
+   "blog", 
+   "abila"
   ]
  }, 
  {
   "docName": "Disappearance 32", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.98246517393026767
+   ]
+  ], 
   "events": [
-   "individuals", 
+   "released", 
    "missing", 
-   "please", 
-   "among", 
-   "unaccounted"
+   "police", 
+   "individuals", 
+   "gastech"
   ]
  }, 
  {
   "docName": "Disappearance 33", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.010648397454416446
+   ], 
+   [
+    2, 
+    0.70775149842966611
+   ], 
+   [
+    3, 
+    0.27152175817505503
+   ], 
+   [
+    4, 
+    0.010078345940862321
+   ]
+  ], 
   "events": [
-   "banned", 
    "tethys", 
-   "probability", 
-   "substrate", 
-   "hyper"
+   "banned", 
+   "gastech", 
+   "today", 
+   "centrum"
   ]
  }, 
  {
   "docName": "Disappearance 34", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.09396639542677479
+   ], 
+   [
+    3, 
+    0.90126076095666763
+   ]
+  ], 
   "events": [
    "hospital", 
-   "araullo", 
+   "abila", 
    "new", 
-   "equipment", 
-   "beds"
+   "construction", 
+   "general"
   ]
  }, 
  {
   "docName": "Disappearance 35", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.98923632593334088
+   ]
+  ], 
   "events": [
-   "wfa", 
-   "demanding", 
+   "gastech", 
+   "kronos", 
    "international", 
-   "atmosphere", 
-   "bursts"
+   "demanding", 
+   "wfa"
   ]
  }, 
  {
   "docName": "Disappearance 36", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.98092509485197843
+   ]
+  ], 
   "events": [
+   "gastech", 
+   "people", 
+   "work", 
    "hard", 
-   "lawbreakers", 
-   "misfortunate", 
-   "opportunity", 
-   "work"
+   "speaks"
   ]
  }, 
  {
   "docName": "Disappearance 37", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.97715168187566237
+   ]
+  ], 
   "events": [
-   "real", 
-   "evacuamento", 
-   "doubts", 
-   "antifire", 
-   "effluito"
+   "modernizations", 
+   "scene", 
+   "gastech", 
+   "blog", 
+   "kronos"
   ]
  }, 
  {
   "docName": "Disappearance 38", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.99139169883612399
+   ]
+  ], 
   "events": [
-   "leadership", 
-   "avila", 
+   "gastech", 
+   "kronos", 
    "million", 
-   "showed", 
-   "missing"
+   "avila", 
+   "leadership"
   ]
  }, 
  {
   "docName": "Disappearance 39", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.70242556078457385
+   ], 
+   [
+    2, 
+    0.27551643923237618
+   ], 
+   [
+    3, 
+    0.010928440837703004
+   ], 
+   [
+    4, 
+    0.011129559145347075
+   ]
+  ], 
   "events": [
-   "robbed", 
-   "suspicion", 
-   "customer", 
-   "unofficial", 
-   "thought"
+   "gastech", 
+   "construction", 
+   "january", 
+   "news", 
+   "pok"
   ]
  }, 
  {
   "docName": "Disappearance 40", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.99116141669135638
+   ]
+  ], 
   "events": [
-   "attend", 
-   "celebrating", 
+   "gastech", 
    "president", 
-   "reception", 
-   "star"
+   "kronos", 
+   "abila", 
+   "celebrating"
   ]
  }, 
  {
   "docName": "Disappearance 41", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.14975355535232465
+   ], 
+   [
+    2, 
+    0.83327688462554117
+   ]
+  ], 
   "events": [
+   "kronos", 
    "update", 
-   "affairs", 
-   "enforcement", 
-   "ministry", 
-   "staff"
+   "gastech", 
+   "january", 
+   "building"
   ]
  }, 
  {
   "docName": "Disappearance 42", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    3, 
+    0.99098080735515026
+   ]
+  ], 
   "events": [
-   "assembly", 
-   "vote", 
    "taxes", 
-   "oil", 
-   "defeated"
+   "health", 
+   "assembly", 
+   "gas", 
+   "increased"
   ]
  }, 
  {
   "docName": "Disappearance 43", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.19269785141446344
+   ], 
+   [
+    2, 
+    0.78826066905989578
+   ]
+  ], 
   "events": [
+   "tethys", 
    "modernizations", 
-   "policy", 
-   "search", 
-   "application", 
-   "ministry"
+   "gastech", 
+   "kronos", 
+   "construction"
   ]
  }, 
  {
   "docName": "Disappearance 44", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    2, 
+    0.9975528114263601
+   ]
+  ], 
   "events": [
    "gas", 
    "centrum", 
-   "energy", 
-   "industry", 
-   "city"
+   "city", 
+   "sanjorge", 
+   "tethys"
   ]
  }, 
  {
   "docName": "Disappearance 45", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.97616213602218593
+   ]
+  ], 
   "events": [
    "limousine", 
-   "guided", 
-   "classified", 
-   "directly", 
-   "relationship"
+   "blog", 
+   "abila", 
+   "approximately", 
+   "sentinel"
   ]
  }, 
  {
   "docName": "Disappearance 46", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    3, 
+    0.98884082620206615
+   ]
+  ], 
   "events": [
    "aiding", 
    "funded", 
-   "disaster", 
-   "global", 
-   "charity"
+   "people", 
+   "reporter", 
+   "press"
   ]
  }, 
  {
   "docName": "Disappearance 47", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    3, 
+    0.9952256859377604
+   ]
+  ], 
   "events": [
    "elian", 
-   "remind", 
-   "homage", 
-   "honor", 
-   "karel"
+   "kronos", 
+   "karel", 
+   "today", 
+   "much"
   ]
  }, 
  {
   "docName": "Disappearance 48", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    3, 
+    0.9882219043641346
+   ]
+  ], 
   "events": [
-   "health", 
    "elodis", 
-   "evident", 
-   "index", 
-   "mortality"
+   "health", 
+   "incidents", 
+   "public", 
+   "abila"
   ]
  }, 
  {
   "docName": "Disappearance 49", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.014110465701758572
+   ], 
+   [
+    2, 
+    0.95780211766721657
+   ], 
+   [
+    3, 
+    0.014040200663379826
+   ], 
+   [
+    4, 
+    0.014047215967644957
+   ]
+  ], 
   "events": [
-   "previewed", 
+   "january", 
    "modernizations", 
-   "attend", 
-   "units", 
-   "rubicon"
+   "scene", 
+   "gastech", 
+   "blog"
   ]
  }, 
  {
   "docName": "Disappearance 50", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.24763611049898215
+   ], 
+   [
+    2, 
+    0.73209931427778008
+   ], 
+   [
+    3, 
+    0.010123744186812863
+   ], 
+   [
+    4, 
+    0.010140831036424916
+   ]
+  ], 
   "events": [
-   "occupants", 
-   "update", 
+   "gastech", 
    "building", 
-   "limousine", 
-   "rossini"
+   "update", 
+   "kronos", 
+   "january"
   ]
  }, 
  {
   "docName": "Disappearance 51", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.9878534450713442
+   ]
+  ], 
   "events": [
-   "kidnapped", 
-   "tethyn", 
-   "pok", 
+   "abila", 
    "employees", 
-   "flew"
+   "pok", 
+   "gastech", 
+   "kronos"
   ]
  }, 
  {
   "docName": "Disappearance 52", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.98600956037808019
+   ]
+  ], 
   "events": [
-   "district", 
-   "looting", 
+   "kronos", 
+   "abila", 
+   "pok", 
    "siopa", 
-   "vandalize", 
-   "intimidated"
+   "district"
   ]
  }, 
  {
   "docName": "Disappearance 53", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.98637212081748615
+   ]
+  ], 
   "events": [
-   "conference", 
+   "police", 
+   "gastech", 
+   "abila", 
    "kidnapped", 
-   "rhetoric", 
-   "whereabouts", 
-   "anarchist"
+   "news"
   ]
  }, 
  {
   "docName": "Disappearance 54", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.48185473107421178
+   ], 
+   [
+    3, 
+    0.51268820164453677
+   ]
+  ], 
   "events": [
    "juliana", 
+   "elodis", 
    "poisoned", 
-   "benzene", 
-   "family", 
-   "death"
+   "caused", 
+   "year"
   ]
  }, 
  {
   "docName": "Disappearance 55", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.98934247729477265
+   ]
+  ], 
   "events": [
-   "ransom", 
+   "gastech", 
+   "police", 
    "force", 
-   "conference", 
-   "kidnapped", 
-   "credit"
+   "abila", 
+   "kidnapped"
   ]
  }, 
  {
   "docName": "Disappearance 56", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.97900060829472002
+   ]
+  ], 
   "events": [
    "ransom", 
-   "demanding", 
-   "made", 
-   "kidnapped", 
-   "president"
+   "gastech", 
+   "kronos", 
+   "president", 
+   "kidnapped"
   ]
  }, 
  {
   "docName": "Disappearance 57", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.010361915747917677
+   ], 
+   [
+    2, 
+    0.96922263584614043
+   ], 
+   [
+    3, 
+    0.010425133199626324
+   ]
+  ], 
   "events": [
-   "scheduled", 
-   "awaiting", 
+   "abila", 
+   "january", 
+   "scene", 
    "haneson", 
-   "ngohebo", 
-   "department"
+   "gastech"
   ]
  }, 
  {
   "docName": "Disappearance 58", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    2, 
+    0.049844302231644211
+   ], 
+   [
+    3, 
+    0.94756446074610134
+   ]
+  ], 
   "events": [
-   "better", 
-   "turnovers", 
-   "want", 
+   "kronos", 
+   "president", 
+   "year", 
    "karel", 
-   "collection"
+   "better"
   ]
  }, 
  {
   "docName": "Disappearance 59", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.37637544737506851
+   ], 
+   [
+    2, 
+    0.5024940080166449
+   ], 
+   [
+    3, 
+    0.11850378921830938
+   ]
+  ], 
   "events": [
+   "elodis", 
    "ratio", 
-   "minor", 
-   "root", 
    "contamination", 
-   "research"
+   "kronos", 
+   "international"
   ]
  }, 
  {
   "docName": "Disappearance 60", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.79732946961081108
+   ], 
+   [
+    2, 
+    0.19536655881990866
+   ]
+  ], 
   "events": [
-   "gates", 
-   "facility", 
    "protesters", 
+   "kronos", 
+   "police", 
    "arrests", 
-   "traffic"
+   "federal"
   ]
  }, 
  {
   "docName": "Disappearance 61", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.98482345927522563
+   ]
+  ], 
   "events": [
+   "kronos", 
+   "gastech", 
    "tomorrow", 
-   "set", 
-   "plenty", 
-   "descending", 
-   "recent"
+   "recent", 
+   "meet"
   ]
  }, 
  {
   "docName": "Disappearance 62", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    3, 
+    0.98835042966398068
+   ]
+  ], 
   "events": [
    "elodis", 
-   "drilling", 
    "health", 
-   "operations", 
-   "amounts"
+   "public", 
+   "gas", 
+   "drilling"
   ]
  }, 
  {
   "docName": "Disappearance 63", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    3, 
+    0.98986334841272505
+   ]
+  ], 
   "events": [
-   "boring", 
-   "verrichtingen", 
    "elodis", 
    "health", 
-   "supplies"
+   "public", 
+   "gas", 
+   "water"
   ]
  }, 
  {
   "docName": "Disappearance 64", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.011470670952156993
+   ], 
+   [
+    2, 
+    0.96509716927306499
+   ], 
+   [
+    3, 
+    0.011990789718450842
+   ], 
+   [
+    4, 
+    0.011441370056327201
+   ]
+  ], 
   "events": [
-   "fortune", 
-   "coffers", 
-   "fled", 
-   "money", 
-   "speculation"
+   "kronos", 
+   "gastech", 
+   "blog", 
+   "important", 
+   "people"
   ]
  }, 
  {
   "docName": "Disappearance 65", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.99075030004317188
+   ]
+  ], 
   "events": [
    "wfa", 
-   "wellness", 
-   "pressure", 
-   "directs", 
-   "elodis"
+   "kronos", 
+   "elodis", 
+   "groups", 
+   "international"
   ]
  }, 
  {
   "docName": "Disappearance 66", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    4, 
+    0.99532087808681968
+   ]
+  ], 
   "events": [
    "pok", 
    "force", 
-   "crowd", 
-   "struck", 
-   "marek"
+   "police", 
+   "abila", 
+   "members"
   ]
  }, 
  {
   "docName": "Disappearance 67", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.98948945323417126
+   ]
+  ], 
   "events": [
-   "successful", 
+   "gastech", 
+   "place", 
+   "president", 
    "celebrating", 
-   "orchestrate", 
-   "welcome", 
-   "spectacle"
+   "kapelou"
   ]
  }, 
  {
   "docName": "Disappearance 68", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.97811088027704107
+   ]
+  ], 
   "events": [
    "times", 
-   "october", 
-   "activity", 
-   "article", 
-   "inspirational"
+   "gastech", 
+   "president", 
+   "sanjorge", 
+   "activity"
   ]
  }, 
  {
   "docName": "Disappearance 69", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.063737661387113204
+   ], 
+   [
+    2, 
+    0.72383036186014849
+   ], 
+   [
+    4, 
+    0.20882668123062073
+   ]
+  ], 
   "events": [
-   "annul", 
-   "prompted", 
-   "solidarity", 
-   "swell", 
-   "antigovernment"
+   "kronos", 
+   "abila", 
+   "protectors", 
+   "death", 
+   "call"
   ]
  }, 
  {
   "docName": "Disappearance 70", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.99188287245410589
+   ]
+  ], 
   "events": [
-   "missing", 
-   "department", 
-   "security", 
-   "end", 
-   "event"
+   "gastech", 
+   "kronos", 
+   "abila", 
+   "event", 
+   "reporter"
   ]
  }, 
  {
   "docName": "Disappearance 71", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    3, 
+    0.98927102516009291
+   ]
+  ], 
   "events": [
-   "health", 
    "elodis", 
-   "thus", 
-   "wire", 
-   "displacement"
+   "health", 
+   "update", 
+   "incidents", 
+   "public"
   ]
  }, 
  {
   "docName": "Disappearance 72", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.98515317247513967
+   ]
+  ], 
   "events": [
+   "gastech", 
+   "kronos", 
    "shifts", 
    "hearth", 
-   "ivar", 
-   "retrospectively", 
-   "slackened"
+   "international"
   ]
  }, 
  {
   "docName": "Disappearance 73", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.2010841781385117
+   ], 
+   [
+    2, 
+    0.79531298734376665
+   ]
+  ], 
   "events": [
-   "willing", 
+   "gastech", 
+   "kronos", 
+   "sanjorge", 
    "personal", 
-   "feared", 
-   "ratio", 
-   "goal"
+   "president"
   ]
  }, 
  {
   "docName": "Disappearance 74", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.97863799479252789
+   ]
+  ], 
   "events": [
-   "conference", 
+   "gastech", 
+   "police", 
+   "abila", 
    "kidnapped", 
-   "whereabouts", 
-   "presumed", 
-   "unconfirmed"
+   "news"
   ]
  }, 
  {
   "docName": "Disappearance 75", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.2323528725588376
+   ], 
+   [
+    2, 
+    0.7573169554542708
+   ]
+  ], 
   "events": [
+   "gastech", 
    "building", 
-   "alarm", 
-   "cover", 
-   "executive", 
-   "hosted"
+   "president", 
+   "headquarters", 
+   "executive"
   ]
  }, 
  {
   "docName": "Disappearance 76", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.29666401305889423
+   ], 
+   [
+    3, 
+    0.45742893340574026
+   ], 
+   [
+    4, 
+    0.24342484894368394
+   ]
+  ], 
   "events": [
    "demonstration", 
-   "command", 
-   "batons", 
-   "rejected", 
-   "uproar"
+   "groups", 
+   "kronos", 
+   "protectors", 
+   "force"
   ]
  }, 
  {
   "docName": "Disappearance 77", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.97447499112322533
+   ]
+  ], 
   "events": [
-   "accident", 
-   "driver", 
-   "traffic", 
+   "elodis", 
    "vehicles", 
+   "resulted", 
+   "driver", 
    "family"
   ]
  }, 
  {
   "docName": "Disappearance 78", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.98902008536840302
+   ]
+  ], 
   "events": [
+   "police", 
+   "gastech", 
    "kidnapped", 
-   "ransom", 
-   "conference", 
-   "credit", 
-   "rhetoric"
+   "abila", 
+   "kronos"
   ]
  }, 
  {
   "docName": "Disappearance 79", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.98711765043841315
+   ]
+  ], 
   "events": [
-   "wfa", 
+   "gastech", 
+   "kronos", 
    "international", 
-   "wellness", 
-   "unfounded", 
-   "groundwater"
+   "wfa", 
+   "claiming"
   ]
  }, 
  {
   "docName": "Disappearance 80", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.31509255123859636
+   ], 
+   [
+    2, 
+    0.6774001321463069
+   ]
+  ], 
   "events": [
+   "kronos", 
    "kidnapped", 
-   "rescue", 
-   "avila", 
+   "gastech", 
    "sanjorge", 
-   "incumbent"
+   "president"
   ]
  }, 
  {
   "docName": "Disappearance 81", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.45918044160538662
+   ], 
+   [
+    2, 
+    0.5237343540512821
+   ]
+  ], 
   "events": [
-   "turnout", 
-   "gear", 
-   "flame", 
-   "smoke", 
-   "firemen"
+   "building", 
+   "questions", 
+   "gastech", 
+   "blog", 
+   "important"
   ]
  }, 
  {
   "docName": "Disappearance 82", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.99352014142597356
+   ]
+  ], 
   "events": [
-   "protestateurs", 
    "force", 
+   "police", 
    "crowd", 
-   "riot", 
-   "annual"
+   "protestateurs", 
+   "several"
   ]
  }, 
  {
   "docName": "Disappearance 83", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.52221745182105417
+   ], 
+   [
+    2, 
+    0.45649964309889285
+   ], 
+   [
+    3, 
+    0.010575735076931018
+   ], 
+   [
+    4, 
+    0.01070717000312197
+   ]
+  ], 
   "events": [
-   "firemen", 
-   "update", 
    "building", 
-   "seen", 
-   "rossini"
+   "update", 
+   "gastech", 
+   "abila", 
+   "kronos"
   ]
  }, 
  {
   "docName": "Disappearance 84", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.53627797673534094
+   ], 
+   [
+    2, 
+    0.067156632003101888
+   ], 
+   [
+    4, 
+    0.39164313678806817
+   ]
+  ], 
   "events": [
+   "kronos", 
    "protesters", 
-   "concert", 
-   "suppressed", 
-   "aligned", 
-   "posteriora"
+   "abila", 
+   "force", 
+   "groups"
   ]
  }, 
  {
   "docName": "Disappearance 85", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    3, 
+    0.98955396386621064
+   ]
+  ], 
   "events": [
-   "health", 
    "elodis", 
-   "fenol", 
-   "incidents", 
-   "hyperactive"
-  ]
- }, 
- {
-  "docName": "Disappearance 86", 
-  "classNum": 3, 
-  "events": [
-   "elian", 
-   "karel", 
-   "mission", 
-   "friday", 
-   "march"
-  ]
- }, 
- {
-  "docName": "Disappearance 87", 
-  "classNum": 2, 
-  "events": [
-   "pulled", 
+   "health", 
    "update", 
-   "rossini", 
-   "bomb", 
-   "threat"
-  ]
- }, 
- {
-  "docName": "Disappearance 88", 
-  "classNum": 3, 
-  "events": [
-   "wfa", 
-   "pok", 
-   "protesters", 
-   "karel", 
-   "pollution"
-  ]
- }, 
- {
-  "docName": "Disappearance 89", 
-  "classNum": 2, 
-  "events": [
-   "taken", 
-   "measurement", 
-   "voices", 
-   "order", 
-   "societies"
-  ]
- }, 
- {
-  "docName": "Disappearance 90", 
-  "classNum": 2, 
-  "events": [
-   "defeated", 
-   "taxes", 
-   "oil", 
-   "assembly", 
-   "development"
-  ]
- }, 
- {
-  "docName": "Disappearance 91", 
-  "classNum": 4, 
-  "events": [
-   "tomorrow", 
-   "set", 
-   "meet", 
-   "initial", 
-   "offer"
-  ]
- }, 
- {
-  "docName": "Disappearance 92", 
-  "classNum": 3, 
-  "events": [
-   "removal", 
-   "speculation", 
-   "hoofdkwartier", 
-   "behind", 
-   "servant"
-  ]
- }, 
- {
-  "docName": "Disappearance 93", 
-  "classNum": 4, 
-  "events": [
-   "task", 
-   "terrorist", 
-   "anti", 
-   "force", 
-   "readdress"
-  ]
- }, 
- {
-  "docName": "Disappearance 94", 
-  "classNum": 2, 
-  "events": [
-   "wonders", 
-   "detailed", 
-   "measurement", 
-   "president", 
-   "improvements"
-  ]
- }, 
- {
-  "docName": "Disappearance 95", 
-  "classNum": 3, 
-  "events": [
-   "wfa", 
-   "julian", 
-   "pok", 
-   "affirmed", 
-   "karel"
-  ]
- }, 
- {
-  "docName": "Disappearance 96", 
-  "classNum": 1, 
-  "events": [
-   "income", 
-   "cheap", 
-   "projects", 
-   "energy", 
-   "country"
-  ]
- }, 
- {
-  "docName": "Disappearance 97", 
-  "classNum": 2, 
-  "events": [
-   "pos", 
-   "raising", 
-   "confusing", 
-   "adding", 
-   "happened"
-  ]
- }, 
- {
-  "docName": "Disappearance 98", 
-  "classNum": 2, 
-  "events": [
-   "tinted", 
-   "unmarked", 
-   "arrived", 
-   "cordon", 
-   "apparent"
-  ]
- }, 
- {
-  "docName": "Disappearance 99", 
-  "classNum": 2, 
-  "events": [
-   "airport", 
-   "jet", 
-   "illumination", 
-   "homeland", 
-   "released"
-  ]
- }, 
- {
-  "docName": "Disappearance 100", 
-  "classNum": 3, 
-  "events": [
-   "gathering", 
-   "order", 
-   "pok", 
-   "protestateurs", 
-   "certain"
-  ]
- }, 
- {
-  "docName": "Disappearance 101", 
-  "classNum": 4, 
-  "events": [
-   "exploration", 
-   "sanjorge", 
-   "take", 
-   "world", 
+   "incidents", 
    "public"
   ]
  }, 
  {
-  "docName": "Disappearance 102", 
-  "classNum": 2, 
+  "docName": "Disappearance 86", 
+  "classNum": [
+   [
+    2, 
+    0.1872702960686668
+   ], 
+   [
+    3, 
+    0.035733725611242814
+   ], 
+   [
+    4, 
+    0.77500610848904317
+   ]
+  ], 
   "events": [
-   "sirene", 
-   "squad", 
-   "interested", 
-   "automobiles", 
-   "development"
+   "kronos", 
+   "elian", 
+   "karel", 
+   "offices", 
+   "pok"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 87", 
+  "classNum": [
+   [
+    1, 
+    0.35482188574626256
+   ], 
+   [
+    2, 
+    0.62402228533551618
+   ], 
+   [
+    3, 
+    0.010595328779654861
+   ], 
+   [
+    4, 
+    0.010560500138566483
+   ]
+  ], 
+  "events": [
+   "gastech", 
+   "update", 
+   "kronos", 
+   "reporter", 
+   "january"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 88", 
+  "classNum": [
+   [
+    1, 
+    0.9968142750041864
+   ]
+  ], 
+  "events": [
+   "pok", 
+   "kronos", 
+   "protesters", 
+   "wfa", 
+   "karel"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 89", 
+  "classNum": [
+   [
+    2, 
+    0.34129278041507144
+   ], 
+   [
+    3, 
+    0.65249970139071201
+   ]
+  ], 
+  "events": [
+   "people", 
+   "voices", 
+   "taken", 
+   "foreign", 
+   "employees"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 90", 
+  "classNum": [
+   [
+    3, 
+    0.98524244179327769
+   ]
+  ], 
+  "events": [
+   "taxes", 
+   "health", 
+   "today", 
+   "gas", 
+   "general"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 91", 
+  "classNum": [
+   [
+    1, 
+    0.012843560433494312
+   ], 
+   [
+    2, 
+    0.96174268150619402
+   ], 
+   [
+    3, 
+    0.012711177979707397
+   ], 
+   [
+    4, 
+    0.012702580080604339
+   ]
+  ], 
+  "events": [
+   "tomorrow", 
+   "meet", 
+   "set", 
+   "morning", 
+   "public"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 92", 
+  "classNum": [
+   [
+    2, 
+    0.99482926272894201
+   ]
+  ], 
+  "events": [
+   "gastech", 
+   "kronos", 
+   "abila", 
+   "international", 
+   "removal"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 93", 
+  "classNum": [
+   [
+    2, 
+    0.2189490101571866
+   ], 
+   [
+    3, 
+    0.76873258395354405
+   ]
+  ], 
+  "events": [
+   "terrorist", 
+   "force", 
+   "task", 
+   "offices", 
+   "president"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 94", 
+  "classNum": [
+   [
+    3, 
+    0.99129440969896288
+   ]
+  ], 
+  "events": [
+   "president", 
+   "kronos", 
+   "last", 
+   "improvements", 
+   "taxes"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 95", 
+  "classNum": [
+   [
+    1, 
+    0.99581656295443921
+   ]
+  ], 
+  "events": [
+   "pok", 
+   "kronos", 
+   "wfa", 
+   "water", 
+   "elodis"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 96", 
+  "classNum": [
+   [
+    3, 
+    0.9914475628040238
+   ]
+  ], 
+  "events": [
+   "kronos", 
+   "taxes", 
+   "country", 
+   "projects", 
+   "income"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 97", 
+  "classNum": [
+   [
+    1, 
+    0.013205603010295802
+   ], 
+   [
+    2, 
+    0.95990849853992355
+   ], 
+   [
+    3, 
+    0.013523842723741965
+   ], 
+   [
+    4, 
+    0.013362055726038588
+   ]
+  ], 
+  "events": [
+   "abila", 
+   "scene", 
+   "haneson", 
+   "gastech", 
+   "blog"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 98", 
+  "classNum": [
+   [
+    1, 
+    0.010750484860192467
+   ], 
+   [
+    2, 
+    0.69917594608972977
+   ], 
+   [
+    3, 
+    0.010579709170019764
+   ], 
+   [
+    4, 
+    0.27949385988005804
+   ]
+  ], 
+  "events": [
+   "arrived", 
+   "scene", 
+   "haneson", 
+   "gastech", 
+   "blog"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 99", 
+  "classNum": [
+   [
+    2, 
+    0.98900827285820858
+   ]
+  ], 
+  "events": [
+   "released", 
+   "illumination", 
+   "homeland", 
+   "jet", 
+   "airport"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 100", 
+  "classNum": [
+   [
+    1, 
+    0.50935140187461392
+   ], 
+   [
+    2, 
+    0.36941529531810469
+   ], 
+   [
+    4, 
+    0.11939962892644979
+   ]
+  ], 
+  "events": [
+   "gastech", 
+   "pok", 
+   "kronos", 
+   "gathering", 
+   "building"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 101", 
+  "classNum": [
+   [
+    2, 
+    0.57548645438184487
+   ], 
+   [
+    3, 
+    0.41611417766604858
+   ]
+  ], 
+  "events": [
+   "sanjorge", 
+   "public", 
+   "international", 
+   "gastech", 
+   "sten"
+  ]
+ }, 
+ {
+  "docName": "Disappearance 102", 
+  "classNum": [
+   [
+    1, 
+    0.014034552339609603
+   ], 
+   [
+    2, 
+    0.9578290364876626
+   ], 
+   [
+    3, 
+    0.014160942798294699
+   ], 
+   [
+    4, 
+    0.013975468374433118
+   ]
+  ], 
+  "events": [
+   "blog", 
+   "approximately", 
+   "sentinel", 
+   "important", 
+   "people"
   ]
  }, 
  {
   "docName": "Disappearance 103", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.99220600652523583
+   ]
+  ], 
   "events": [
-   "brakes", 
-   "curve", 
-   "haltings", 
-   "return", 
-   "released"
+   "kronos", 
+   "gastech", 
+   "released", 
+   "elodis", 
+   "protesters"
   ]
  }, 
  {
   "docName": "Disappearance 104", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    2, 
+    0.42629948587563049
+   ], 
+   [
+    3, 
+    0.56837283480704537
+   ]
+  ], 
   "events": [
-   "fluss", 
    "sanjorge", 
-   "hank", 
-   "operations", 
-   "coo"
+   "gastech", 
+   "fluss", 
+   "year", 
+   "operations"
   ]
  }, 
  {
   "docName": "Disappearance 105", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.70638804503419461
+   ], 
+   [
+    2, 
+    0.29050768208872296
+   ]
+  ], 
   "events": [
-   "standard", 
-   "flame", 
+   "gastech", 
+   "sanjorge", 
    "new", 
-   "blue", 
-   "rebranding"
+   "standard", 
+   "kronos"
   ]
  }, 
  {
   "docName": "Disappearance 106", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.98649851999194915
+   ]
+  ], 
   "events": [
-   "reception", 
-   "reinvestimento", 
-   "particularly", 
-   "barranca", 
-   "filling"
+   "kronos", 
+   "gastech", 
+   "people", 
+   "january", 
+   "reception"
   ]
  }, 
  {
   "docName": "Disappearance 107", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.0116196577187439
+   ], 
+   [
+    2, 
+    0.96540888878804421
+   ], 
+   [
+    3, 
+    0.011464841848170079
+   ], 
+   [
+    4, 
+    0.011506611645041721
+   ]
+  ], 
   "events": [
-   "sure", 
-   "marked", 
-   "ones", 
-   "number", 
-   "sentinel"
+   "gastech", 
+   "blog", 
+   "approximately", 
+   "sentinel", 
+   "important"
   ]
  }, 
  {
   "docName": "Disappearance 108", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.57168816704443659
+   ], 
+   [
+    2, 
+    0.40893078026708457
+   ]
+  ], 
   "events": [
-   "pulled", 
-   "marked", 
-   "modernizations", 
+   "gastech", 
    "fire", 
-   "signaler"
+   "modernizations", 
+   "construction", 
+   "january"
   ]
  }, 
  {
   "docName": "Disappearance 109", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.67163694790761574
+   ], 
+   [
+    3, 
+    0.31931635904676003
+   ]
+  ], 
   "events": [
-   "explainer", 
-   "order", 
-   "unexpected", 
-   "suggest", 
-   "abound"
+   "gastech", 
+   "recent", 
+   "voices", 
+   "modernizations", 
+   "explainer"
   ]
  }, 
  {
   "docName": "Disappearance 110", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.010516053977525783
+   ], 
+   [
+    2, 
+    0.96922796598642569
+   ], 
+   [
+    3, 
+    0.010162181780913424
+   ], 
+   [
+    4, 
+    0.010093798255134987
+   ]
+  ], 
   "events": [
-   "afd", 
+   "fire", 
    "modernizations", 
-   "relationship", 
-   "felt", 
-   "fire"
+   "scene", 
+   "gastech", 
+   "blog"
   ]
  }, 
  {
   "docName": "Disappearance 111", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.99164369187537404
+   ]
+  ], 
   "events": [
+   "gastech", 
+   "fire", 
+   "investigation", 
    "explosion", 
-   "necklaces", 
-   "spring", 
-   "per", 
-   "curve"
+   "gas"
   ]
  }, 
  {
   "docName": "Disappearance 112", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.28389198963199019
+   ], 
+   [
+    2, 
+    0.70824127303871254
+   ]
+  ], 
   "events": [
+   "kronos", 
    "ransom", 
    "removal", 
-   "sanjorge", 
-   "plundering", 
-   "made"
+   "gastech", 
+   "sanjorge"
   ]
  }, 
  {
   "docName": "Disappearance 113", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.98020111667895671
+   ]
+  ], 
   "events": [
-   "bend", 
    "tiskele", 
-   "blocked", 
+   "bend", 
    "field", 
-   "handcuffed"
+   "police", 
+   "protesters"
   ]
  }, 
  {
   "docName": "Disappearance 114", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.99533898409036514
+   ]
+  ], 
   "events": [
    "boat", 
-   "presidentially", 
+   "members", 
+   "used", 
    "teams", 
-   "ship", 
-   "cup"
+   "presidentially"
   ]
  }, 
  {
   "docName": "Disappearance 115", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.98920929771317312
+   ]
+  ], 
   "events": [
-   "assault", 
-   "men", 
-   "carmen", 
-   "vehicles", 
-   "patrol"
+   "pok", 
+   "police", 
+   "offices", 
+   "abila", 
+   "vehicles"
   ]
  }, 
  {
   "docName": "Disappearance 116", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.99195972256470666
+   ]
+  ], 
   "events": [
    "elodis", 
-   "commission", 
+   "died", 
    "car", 
-   "koppolis", 
-   "collision"
+   "family", 
+   "scene"
   ]
  }, 
  {
   "docName": "Disappearance 117", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    4, 
+    0.99435646933666755
+   ]
+  ], 
   "events": [
    "karel", 
    "death", 
+   "kronos", 
    "research", 
-   "shouts", 
-   "remind"
+   "abila"
   ]
  }, 
  {
   "docName": "Disappearance 118", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.99377402593385722
+   ]
+  ], 
   "events": [
-   "protestateurs", 
    "force", 
+   "police", 
    "crowd", 
-   "riot", 
-   "annual"
+   "protestateurs", 
+   "several"
   ]
  }, 
  {
   "docName": "Disappearance 119", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.59021653123112527
+   ], 
+   [
+    2, 
+    0.38630688023692805
+   ], 
+   [
+    3, 
+    0.011631631998901397
+   ], 
+   [
+    4, 
+    0.011844956533045304
+   ]
+  ], 
   "events": [
    "construction", 
-   "nation", 
-   "modernizations", 
    "fire", 
-   "seen"
+   "modernizations", 
+   "gastech", 
+   "abila"
   ]
  }, 
  {
   "docName": "Disappearance 120", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    4, 
+    0.99507450353257809
+   ]
+  ], 
   "events": [
+   "kronos", 
    "pok", 
-   "decision", 
-   "terrorism", 
+   "groups", 
    "continue", 
-   "story"
+   "environmental"
   ]
  }, 
  {
   "docName": "Disappearance 121", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.99292330834920517
+   ]
+  ], 
   "events": [
    "violence", 
+   "kronos", 
    "peaceful", 
    "crowd", 
-   "began", 
-   "rallies"
+   "abila"
   ]
  }, 
  {
   "docName": "Disappearance 122", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.99672176362882026
+   ]
+  ], 
   "events": [
+   "running", 
    "phillies", 
    "chamberlain", 
    "games", 
-   "inning", 
-   "running"
+   "inning"
   ]
  }, 
  {
   "docName": "Disappearance 123", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.44019389707584244
+   ], 
+   [
+    2, 
+    0.55156640180122152
+   ]
+  ], 
   "events": [
    "kapelou", 
-   "gang", 
    "president", 
+   "pok", 
    "call", 
-   "criminal"
+   "kronos"
   ]
  }, 
  {
   "docName": "Disappearance 124", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.39283446889581086
+   ], 
+   [
+    2, 
+    0.59453510617791883
+   ]
+  ], 
   "events": [
-   "bend", 
    "tiskele", 
-   "larger", 
-   "field", 
-   "estimated"
+   "bend", 
+   "today", 
+   "gas", 
+   "field"
   ]
  }, 
  {
   "docName": "Disappearance 125", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.9906418851884895
+   ]
+  ], 
   "events": [
-   "instructed", 
-   "trickle", 
-   "caterers", 
-   "everyone", 
-   "deadly"
+   "gastech", 
+   "employees", 
+   "kronos", 
+   "meet", 
+   "released"
   ]
  }, 
  {
   "docName": "Disappearance 126", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.27634646956476733
+   ], 
+   [
+    2, 
+    0.6983339005555167
+   ], 
+   [
+    3, 
+    0.012668619623292923
+   ], 
+   [
+    4, 
+    0.012651010256423095
+   ]
+  ], 
   "events": [
-   "update", 
+   "gastech", 
    "building", 
-   "allow", 
-   "rossini", 
-   "cato"
+   "update", 
+   "kronos", 
+   "january"
   ]
  }, 
  {
   "docName": "Disappearance 127", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.97663391165061431
+   ]
+  ], 
   "events": [
-   "poisoned", 
-   "juliana", 
    "died", 
-   "visited", 
-   "recommending"
+   "elodis", 
+   "juliana", 
+   "year", 
+   "poisoned"
   ]
  }, 
  {
   "docName": "Disappearance 128", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.66257831483673402
+   ], 
+   [
+    4, 
+    0.32846551705152088
+   ]
+  ], 
   "events": [
+   "abila", 
+   "police", 
    "individuals", 
-   "inspiegati", 
-   "means", 
-   "lacking", 
-   "sees"
+   "modernizations", 
+   "lacking"
   ]
  }, 
  {
   "docName": "Disappearance 129", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.98583574567894061
+   ]
+  ], 
   "events": [
-   "desk", 
-   "donors", 
-   "writer", 
-   "hoofdkwartier", 
-   "place"
+   "kronos", 
+   "gastech", 
+   "blog", 
+   "morning", 
+   "recent"
   ]
  }, 
  {
   "docName": "Disappearance 130", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.85166844477031611
+   ], 
+   [
+    3, 
+    0.14046603766294138
+   ]
+  ], 
   "events": [
    "kapelou", 
-   "letters", 
+   "president", 
    "threat", 
-   "occasions", 
-   "nothing"
+   "pok", 
+   "letters"
   ]
  }, 
  {
   "docName": "Disappearance 131", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.97951805341579601
+   ]
+  ], 
   "events": [
-   "limousine", 
-   "gerhard", 
    "illumination", 
    "homeland", 
-   "directly"
+   "gerhard", 
+   "limousine", 
+   "droves"
   ]
  }, 
  {
   "docName": "Disappearance 132", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    2, 
+    0.11558307609397798
+   ], 
+   [
+    3, 
+    0.88183258555944111
+   ]
+  ], 
   "events": [
-   "better", 
-   "accountancy", 
-   "revenues", 
-   "want", 
-   "rallies"
+   "kronos", 
+   "president", 
+   "year", 
+   "karel", 
+   "abila"
   ]
  }, 
  {
   "docName": "Disappearance 133", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.44556530015754592
+   ], 
+   [
+    2, 
+    0.53026955211724724
+   ], 
+   [
+    3, 
+    0.012106696921008325
+   ], 
+   [
+    4, 
+    0.012058450804198382
+   ]
+  ], 
   "events": [
-   "king", 
+   "gastech", 
    "construction", 
    "modernizations", 
-   "allow", 
-   "units"
+   "january", 
+   "news"
   ]
  }, 
  {
   "docName": "Disappearance 134", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.98278332816681879
+   ], 
+   [
+    2, 
+    0.011727364517670754
+   ]
+  ], 
   "events": [
-   "explosion", 
-   "collars", 
-   "spark", 
+   "gastech", 
    "fire", 
-   "burn"
+   "explosion", 
+   "place", 
+   "sources"
   ]
  }, 
  {
   "docName": "Disappearance 135", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    1, 
+    0.52406979102205931
+   ], 
+   [
+    2, 
+    0.46004151646402447
+   ]
+  ], 
   "events": [
-   "telephone", 
-   "try", 
-   "twenty", 
+   "gastech", 
    "answered", 
-   "coordinator"
+   "modernizations", 
+   "try", 
+   "telephone"
   ]
  }, 
  {
   "docName": "Disappearance 136", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    4, 
+    0.99804207804392731
+   ]
+  ], 
   "events": [
    "drug", 
    "caramel", 
@@ -1497,178 +2645,302 @@
  }, 
  {
   "docName": "Disappearance 137", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.16688028481125425
+   ], 
+   [
+    2, 
+    0.81722068007357329
+   ]
+  ], 
   "events": [
-   "uneven", 
+   "gastech", 
    "construction", 
-   "lurking", 
-   "modernizations", 
-   "relationship"
+   "people", 
+   "fire", 
+   "modernizations"
   ]
  }, 
  {
   "docName": "Disappearance 138", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    3, 
+    0.98906567342309992
+   ]
+  ], 
   "events": [
    "elodis", 
    "health", 
-   "unprecedented", 
+   "update", 
    "incidents", 
-   "may"
+   "public"
   ]
  }, 
  {
   "docName": "Disappearance 139", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.97974218276835989
+   ]
+  ], 
   "events": [
-   "explosion", 
-   "bend", 
    "fire", 
-   "fireball", 
-   "tiskele"
+   "gastech", 
+   "explosion", 
+   "tiskele", 
+   "bend"
   ]
  }, 
  {
   "docName": "Disappearance 140", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    1, 
+    0.97784485449500425
+   ]
+  ], 
   "events": [
-   "riot", 
+   "abila", 
+   "pok", 
    "annual", 
-   "occurred", 
-   "kind", 
-   "force"
+   "force", 
+   "riot"
   ]
  }, 
  {
   "docName": "Disappearance 141", 
-  "classNum": 1, 
+  "classNum": [
+   [
+    1, 
+    0.98789090570667637
+   ]
+  ], 
   "events": [
-   "commissioner", 
    "elodis", 
-   "koppolis", 
-   "program", 
-   "schools"
+   "scene", 
+   "died", 
+   "released", 
+   "police"
   ]
  }, 
  {
   "docName": "Disappearance 142", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.010791265453350143
+   ], 
+   [
+    2, 
+    0.010713331124912082
+   ], 
+   [
+    3, 
+    0.96791978831329173
+   ], 
+   [
+    4, 
+    0.010575615108446092
+   ]
+  ], 
   "events": [
    "elodis", 
-   "website", 
    "health", 
-   "full", 
-   "study"
+   "public", 
+   "kronos", 
+   "today"
   ]
  }, 
  {
   "docName": "Disappearance 143", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.97193037811216099
+   ]
+  ], 
   "events": [
+   "police", 
    "employs", 
-   "modified", 
-   "unknown", 
-   "sig", 
-   "minuteren"
+   "gastech", 
+   "blog", 
+   "abila"
   ]
  }, 
  {
   "docName": "Disappearance 144", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.98352485558253921
+   ]
+  ], 
   "events": [
-   "reunion", 
+   "gastech", 
    "employs", 
-   "accosentito", 
-   "null", 
-   "beyond"
+   "modernizations", 
+   "reunion", 
+   "scene"
   ]
  }, 
  {
   "docName": "Disappearance 145", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.97043922791622461
+   ]
+  ], 
   "events": [
-   "district", 
+   "abila", 
+   "kronos", 
    "siopa", 
-   "vandalize", 
-   "opportunistic", 
-   "looting"
+   "district", 
+   "vandalize"
   ]
  }, 
  {
   "docName": "Disappearance 146", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.51555451103709116
+   ], 
+   [
+    2, 
+    0.46376217649352064
+   ], 
+   [
+    3, 
+    0.01019973358882653
+   ], 
+   [
+    4, 
+    0.010483578880561754
+   ]
+  ], 
   "events": [
-   "barricades", 
+   "gastech", 
    "construction", 
+   "police", 
    "modernizations", 
-   "put", 
    "control"
   ]
  }, 
  {
   "docName": "Disappearance 147", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    2, 
+    0.98328892817862568
+   ]
+  ], 
   "events": [
-   "reunion", 
+   "gastech", 
    "employs", 
-   "accosentito", 
-   "null", 
-   "beyond"
+   "modernizations", 
+   "reunion", 
+   "scene"
   ]
  }, 
  {
   "docName": "Disappearance 148", 
-  "classNum": 4, 
+  "classNum": [
+   [
+    2, 
+    0.66914088800404181
+   ], 
+   [
+    3, 
+    0.32356665431709897
+   ]
+  ], 
   "events": [
    "sanjorge", 
-   "take", 
    "international", 
    "public", 
-   "sten"
+   "sten", 
+   "gastech"
   ]
  }, 
  {
   "docName": "Disappearance 149", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    2, 
+    0.99516775803786184
+   ]
+  ], 
   "events": [
+   "gastech", 
+   "kronos", 
+   "president", 
    "removal", 
-   "disappearance", 
-   "feared", 
-   "received", 
-   "others"
+   "offices"
   ]
  }, 
  {
   "docName": "Disappearance 150", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.73079008228746323
+   ], 
+   [
+    2, 
+    0.26158449591709343
+   ]
+  ], 
   "events": [
-   "trapan", 
-   "unofficial", 
-   "formed", 
-   "grassroots", 
-   "kidnappers"
+   "pok", 
+   "gastech", 
+   "groups", 
+   "kronos", 
+   "subsequently"
   ]
  }, 
  {
   "docName": "Disappearance 151", 
-  "classNum": 3, 
+  "classNum": [
+   [
+    3, 
+    0.99600922427323346
+   ]
+  ], 
   "events": [
    "aiding", 
+   "people", 
    "teams", 
-   "singapore", 
-   "overalls", 
-   "earthquake"
+   "organization", 
+   "emergency"
   ]
  }, 
  {
   "docName": "Disappearance 152", 
-  "classNum": 2, 
+  "classNum": [
+   [
+    1, 
+    0.4374878606178465
+   ], 
+   [
+    2, 
+    0.066538743561464692
+   ], 
+   [
+    3, 
+    0.4918523593891625
+   ]
+  ], 
   "events": [
-   "representatives", 
+   "kronos", 
    "responsibility", 
-   "health", 
-   "plagued", 
-   "reverse"
+   "pok", 
+   "elodis", 
+   "health"
   ]
  }
 ]
